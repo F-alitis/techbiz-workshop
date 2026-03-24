@@ -1,16 +1,10 @@
-NBG_URLS = [
-    "https://www.nbg.gr/en/retail",
-    "https://www.nbg.gr/en/retail/loans",
-    "https://www.nbg.gr/en/retail/cards",
-    "https://www.nbg.gr/en/retail/accounts",
-    "https://www.nbg.gr/en/business",
-    "https://www.nbg.gr/en/about-us",
-    "https://www.nbg.gr/en/contact",
-]
+from config.settings import settings
+
+NBG_URLS = settings.nbg_crawl_urls
 
 CRAWL_SETTINGS = {
-    "max_depth": 2,
-    "rate_limit": 1.0,
-    "timeout": 30,
-    "allowed_domain": "nbg.gr",
+    "max_depth": settings.crawl_max_depth,
+    "rate_limit": settings.crawl_rate_limit,
+    "timeout": settings.crawl_timeout,
+    "allowed_domain": settings.crawl_allowed_domain,
 }

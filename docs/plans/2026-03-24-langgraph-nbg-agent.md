@@ -14,7 +14,8 @@ Building a hands-on demo for a 1-hour university presentation. The agent accesse
 | Embeddings | Azure OpenAI (text-embedding-3-small) | Deployment: `uniko-poc-embeddings` |
 | Framework | LangGraph v0.3+ | Graph-based agent orchestration |
 | Vector Store | ChromaDB | Via `langchain-chroma` |
-| Web Scraping | Crawl4AI | AI-optimized async crawler |
+| Web Scraping (pre-crawl) | Crawl4AI | AI-optimized async crawler (JS-rendered, used in scripts) |
+| Web Scraping (live) | httpx + BeautifulSoup | Lightweight HTTP scraper (no browser, LangGraph-compatible) |
 | CLI | Rich | Beautiful terminal output |
 | Observability | LangSmith | Auto-tracing for LangGraph |
 | Dev UI | LangGraph Studio | Visual graph debugging |
@@ -50,7 +51,7 @@ nbg-banking-agent/
 │   └── vector_store/             # ChromaDB storage (gitignored)
 ├── src/
 │   ├── crawl/
-│   │   ├── nbg_config.py         # NBG target URLs and crawl settings
+│   │   ├── nbg_config.py         # NBG crawl config (reads from settings)
 │   │   └── crawler.py            # Crawl4AI AsyncWebCrawler
 │   ├── rag/
 │   │   ├── chunker.py            # RecursiveCharacterTextSplitter
@@ -58,7 +59,7 @@ nbg-banking-agent/
 │   │   └── vector_store.py       # ChromaDB via langchain-chroma
 │   ├── tools/
 │   │   ├── rag_retrieval.py      # @tool: vector search
-│   │   └── live_scraper.py       # @tool: live Crawl4AI scrape
+│   │   └── live_scraper.py       # @tool: live httpx+BS4 scrape
 │   ├── agent/
 │   │   ├── state.py              # InputState + AgentState
 │   │   ├── llm.py                # Azure OpenAI Responses API wrapper
@@ -108,6 +109,15 @@ def ask_llm(prompt: str) -> str:
     return response.output_text
 ```
 
+### Dual Scraping Strategy
+
+| Use Case | Tool | Why |
+|----------|------|-----|
+| Pre-crawl (scripts) | Crawl4AI | Full JS rendering, writes to disk, populates ChromaDB |
+| Live scraping (agent) | httpx + BeautifulSoup | No browser needed, synchronous, LangGraph-compatible |
+
+Crawl4AI uses Playwright/Chromium which conflicts with LangGraph's async runtime (blocking OS calls, browser process management). The live scraper uses httpx for simple HTTP GET + BeautifulSoup for HTML-to-text extraction. NBG.gr returns ~5000 chars of usable content without JS rendering.
+
 ### Graph Flow
 
 ```
@@ -119,7 +129,7 @@ START → classify_query → [conditional routing]
 
 - `classify_query_node`: Extracts user_query from messages, decides routing (STUB)
 - `retrieve_from_rag_node`: Queries ChromaDB, returns rag_context
-- `scrape_live_node`: Crawls NBG page, returns live_content
+- `scrape_live_node`: Fetches NBG page via httpx+BS4, returns live_content
 - `generate_answer_node`: Generates answer from context (STUB)
 
 ## Environment Variables
@@ -138,7 +148,16 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_API_KEY=...
 LANGCHAIN_PROJECT=nbg-banking-agent
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+
+# Crawling
+NBG_CRAWL_URLS=["https://www.nbg.gr/en/retail","https://www.nbg.gr/en/retail/loans","https://www.nbg.gr/en/retail/cards","https://www.nbg.gr/en/retail/accounts","https://www.nbg.gr/en/business","https://www.nbg.gr/en/about-us","https://www.nbg.gr/en/contact"]
+CRAWL_RATE_LIMIT=1.0
+CRAWL_MAX_DEPTH=2
+CRAWL_TIMEOUT=30
+CRAWL_ALLOWED_DOMAIN=nbg.gr
 ```
+
+Note: Crawl target URLs and settings are configured via `.env`, loaded by Pydantic Settings into `config/settings.py`, and consumed by `src/crawl/nbg_config.py`.
 
 ## Commands
 

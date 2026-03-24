@@ -18,8 +18,8 @@ def classify_query_node(state: AgentState) -> dict:
     # Extract user query from the last message
     messages = state.get("messages", [])
     user_query = messages[-1].content if messages else ""
-    # Placeholder: always route to RAG
-    return {"user_query": user_query, "next_action": "rag", "tool_calls": 0}
+    # Placeholder: route to scrape for testing (change to "rag" or "both" as needed)
+    return {"user_query": user_query, "next_action": "scrape", "tool_calls": 0}
 
 
 def retrieve_from_rag_node(state: AgentState) -> dict:

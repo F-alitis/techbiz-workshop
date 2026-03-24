@@ -26,7 +26,19 @@ class Settings(BaseSettings):
 
     # Crawling
     nbg_base_url: str = "https://www.nbg.gr"
+    nbg_crawl_urls: list[str] = [
+        "https://www.nbg.gr/en/retail",
+        "https://www.nbg.gr/en/retail/loans",
+        "https://www.nbg.gr/en/retail/cards",
+        "https://www.nbg.gr/en/retail/accounts",
+        "https://www.nbg.gr/en/business",
+        "https://www.nbg.gr/en/about-us",
+        "https://www.nbg.gr/en/contact",
+    ]
     crawl_rate_limit: float = 1.0
+    crawl_max_depth: int = 2
+    crawl_timeout: int = 30
+    crawl_allowed_domain: str = "nbg.gr"
 
     # Paths
     data_dir: str = "data"
