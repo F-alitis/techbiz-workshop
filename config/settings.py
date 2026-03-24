@@ -5,44 +5,38 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     model_config = ConfigDict(env_file=".env")
 
-    # Azure OpenAI
-    azure_openai_api_key: str = ""
-    azure_openai_endpoint: str = "https://users-direct-oai.openai.azure.com/"
-    azure_openai_api_version: str = "2025-04-01-preview"
-    azure_openai_deployment: str = "o4-mini"
-    azure_openai_embedding_deployment: str = "uniko-poc-embeddings"
-    azure_openai_embedding_api_version: str = "2024-12-01-preview"
+    # Azure OpenAI — LLM
+    azure_openai_api_key: str
+    azure_openai_endpoint: str
+    azure_openai_api_version: str
+    azure_openai_deployment: str
+
+    # Azure OpenAI — Embeddings
+    azure_openai_embedding_deployment: str
+    azure_openai_embedding_api_version: str
 
     # LangSmith
-    langchain_tracing_v2: bool = True
-    langchain_api_key: str = ""
-    langchain_project: str = "nbg-banking-agent"
-    langchain_endpoint: str = "https://api.smith.langchain.com"
+    langchain_tracing_v2: bool
+    langchain_api_key: str
+    langchain_project: str
+    langchain_endpoint: str
 
     # RAG
-    chunk_size: int = 1000
-    chunk_overlap: int = 200
-    retrieval_top_k: int = 5
+    chunk_size: int
+    chunk_overlap: int
+    retrieval_top_k: int
 
     # Crawling
-    nbg_base_url: str = "https://www.nbg.gr"
-    nbg_crawl_urls: list[str] = [
-        "https://www.nbg.gr/en/retail",
-        "https://www.nbg.gr/en/retail/loans",
-        "https://www.nbg.gr/en/retail/cards",
-        "https://www.nbg.gr/en/retail/accounts",
-        "https://www.nbg.gr/en/business",
-        "https://www.nbg.gr/en/about-us",
-        "https://www.nbg.gr/en/contact",
-    ]
-    crawl_rate_limit: float = 1.0
-    crawl_max_depth: int = 2
-    crawl_timeout: int = 30
-    crawl_allowed_domain: str = "nbg.gr"
+    nbg_base_url: str
+    nbg_crawl_urls: list[str]
+    crawl_rate_limit: float
+    crawl_max_depth: int
+    crawl_timeout: int
+    crawl_allowed_domain: str
 
     # Paths
-    data_dir: str = "data"
-    vector_store_path: str = "data/vector_store"
+    data_dir: str
+    vector_store_path: str
 
 
 settings = Settings()

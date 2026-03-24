@@ -44,7 +44,10 @@ nbg-banking-agent/
 ├── langgraph.json                # LangGraph Server config
 ├── main.py                       # CLI entry point
 ├── config/
-│   └── settings.py               # Pydantic BaseSettings
+│   ├── settings.py               # Pydantic BaseSettings (no defaults, all from .env)
+│   └── prompts/
+│       ├── classification.txt    # Query classification prompt template
+│       └── generation.txt        # Answer generation prompt template
 ├── data/
 │   ├── raw/                      # Crawled markdown (gitignored)
 │   ├── processed/                # Chunked documents (gitignored)
@@ -63,7 +66,7 @@ nbg-banking-agent/
 │   ├── agent/
 │   │   ├── state.py              # InputState + AgentState
 │   │   ├── llm.py                # Azure OpenAI Responses API wrapper
-│   │   ├── prompts.py            # Classification + generation prompts
+│   │   ├── prompts.py            # Loads prompts from config/prompts/
 │   │   ├── nodes.py              # 4 nodes (2 stubs for live-coding)
 │   │   └── graph.py              # StateGraph with input schema
 │   └── cli/
@@ -132,32 +135,58 @@ START → classify_query → [conditional routing]
 - `scrape_live_node`: Fetches NBG page via httpx+BS4, returns live_content
 - `generate_answer_node`: Generates answer from context (STUB)
 
-## Environment Variables
+## Environment Variables (`.env` is the single source of truth)
+
+All configuration lives in `.env` — `config/settings.py` has no defaults, only type declarations. If a variable is missing, the app fails at startup with a clear validation error.
 
 ```bash
-# Azure OpenAI
+# ============================================
+# Azure OpenAI — LLM (Responses API)
+# ============================================
 AZURE_OPENAI_API_KEY=...
 AZURE_OPENAI_ENDPOINT=https://users-direct-oai.openai.azure.com/
 AZURE_OPENAI_API_VERSION=2025-04-01-preview
 AZURE_OPENAI_DEPLOYMENT=o4-mini
+
+# ============================================
+# Azure OpenAI — Embeddings
+# ============================================
 AZURE_OPENAI_EMBEDDING_DEPLOYMENT=uniko-poc-embeddings
 AZURE_OPENAI_EMBEDDING_API_VERSION=2024-12-01-preview
 
-# LangSmith
+# ============================================
+# LangSmith — Observability & Tracing
+# ============================================
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_API_KEY=...
 LANGCHAIN_PROJECT=nbg-banking-agent
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
 
-# Crawling
-NBG_CRAWL_URLS=["https://www.nbg.gr/en/retail","https://www.nbg.gr/en/retail/loans","https://www.nbg.gr/en/retail/cards","https://www.nbg.gr/en/retail/accounts","https://www.nbg.gr/en/business","https://www.nbg.gr/en/about-us","https://www.nbg.gr/en/contact"]
+# ============================================
+# RAG — Chunking & Retrieval
+# ============================================
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
+RETRIEVAL_TOP_K=5
+
+# ============================================
+# Crawling — Target URLs & Settings
+# ============================================
+NBG_BASE_URL=https://www.nbg.gr
+NBG_CRAWL_URLS=["https://www.nbg.gr/en/retail",...]
 CRAWL_RATE_LIMIT=1.0
 CRAWL_MAX_DEPTH=2
 CRAWL_TIMEOUT=30
 CRAWL_ALLOWED_DOMAIN=nbg.gr
+
+# ============================================
+# Paths — Data & Storage
+# ============================================
+DATA_DIR=data
+VECTOR_STORE_PATH=data/vector_store
 ```
 
-Note: Crawl target URLs and settings are configured via `.env`, loaded by Pydantic Settings into `config/settings.py`, and consumed by `src/crawl/nbg_config.py`.
+Prompts are stored as text files in `config/prompts/` and loaded by `src/agent/prompts.py`.
 
 ## Commands
 
