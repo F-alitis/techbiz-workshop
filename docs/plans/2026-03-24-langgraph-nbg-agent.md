@@ -188,6 +188,13 @@ VECTOR_STORE_PATH=data/vector_store
 
 Prompts are stored as text files in `config/prompts/` and loaded by `src/agent/prompts.py`.
 
+## Pre-Crawl Notes
+
+- Crawl4AI fetches JS-rendered content from 7 NBG subsites (~440K chars total, ~582 chunks)
+- Azure OpenAI S0 tier has strict rate limits on embeddings — `02_build_vector_store.py` uses batches of 10 with retry logic and delays between batches
+- The `/en/retail/loans` page may return empty content (redirect/JS-only) — this is expected
+- Pre-crawl takes ~5 minutes due to rate limit delays
+
 ## Commands
 
 | Command | Description |
@@ -197,7 +204,7 @@ Prompts are stored as text files in `config/prompts/` and loaded by `src/agent/p
 | `langgraph dev` | Start LangGraph Server + Studio |
 | `uv run pytest tests/ -v` | Run all tests |
 | `uv run python scripts/01_crawl_nbg.py` | Crawl NBG website |
-| `uv run python scripts/02_build_vector_store.py` | Build vector store |
+| `uv run python scripts/02_build_vector_store.py` | Build vector store (batched, handles rate limits) |
 | `uv run python scripts/03_test_retrieval.py` | Test retrieval |
 
 ## Live-Coding Stubs (30% of demo)

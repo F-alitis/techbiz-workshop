@@ -27,7 +27,27 @@ def main():
     chunks = chunk_documents(docs)
     print(f"Created {len(chunks)} chunks from {len(docs)} documents")
 
-    add_documents(chunks)
+    import time
+    batch_size = 10
+    total_batches = (len(chunks) + batch_size - 1) // batch_size
+    for i in range(0, len(chunks), batch_size):
+        batch = chunks[i : i + batch_size]
+        retries = 3
+        for attempt in range(retries):
+            try:
+                add_documents(batch)
+                print(f"  Added batch {i // batch_size + 1}/{total_batches} ({len(batch)} chunks)")
+                break
+            except Exception as e:
+                if attempt < retries - 1:
+                    wait = 30 * (attempt + 1)
+                    print(f"  Rate limited, waiting {wait}s...")
+                    time.sleep(wait)
+                else:
+                    raise e
+        if i + batch_size < len(chunks):
+            time.sleep(5)
+
     stats = get_collection_stats()
     print(f"Vector store now has {stats['count']} documents")
 
