@@ -97,6 +97,7 @@ class AgentState(InputState, total=False):
     rag_context: str
     live_content: str
     next_action: str
+    scrape_url: str
     final_answer: str
     tool_calls: int
 ```
@@ -130,9 +131,9 @@ START → classify_query → [conditional routing]
   └─→ retrieve_from_rag → scrape_live → generate_answer → END
 ```
 
-- `classify_query_node`: Extracts user_query from messages, decides routing (STUB)
+- `classify_query_node`: Extracts user_query from messages, decides routing + picks scrape_url from `NBG_SCRAPE_URLS` (STUB)
 - `retrieve_from_rag_node`: Queries ChromaDB, returns rag_context
-- `scrape_live_node`: Fetches NBG page via httpx+BS4, returns live_content
+- `scrape_live_node`: Fetches `scrape_url` from state via httpx+BS4, returns live_content
 - `generate_answer_node`: Generates answer from context (STUB)
 
 ## Environment Variables (`.env` is the single source of truth)
@@ -173,7 +174,10 @@ RETRIEVAL_TOP_K=5
 # Crawling — Target URLs & Settings
 # ============================================
 NBG_BASE_URL=https://www.nbg.gr
-NBG_CRAWL_URLS=["https://www.nbg.gr/en/retail",...]
+# Offline: pre-crawled with Crawl4AI (static product/service pages)
+NBG_CRAWL_URLS=["https://www.nbg.gr/en/individuals",...] # 20 URLs
+# Live: scraped on-demand by agent (frequently updated pages)
+NBG_SCRAPE_URLS=["https://www.nbg.gr/en/go4more",...] # 20 URLs
 CRAWL_RATE_LIMIT=1.0
 CRAWL_MAX_DEPTH=2
 CRAWL_TIMEOUT=30
@@ -190,10 +194,9 @@ Prompts are stored as text files in `config/prompts/` and loaded by `src/agent/p
 
 ## Pre-Crawl Notes
 
-- Crawl4AI fetches JS-rendered content from 7 NBG subsites (~440K chars total, ~582 chunks)
-- Azure OpenAI S0 tier has strict rate limits on embeddings — `02_build_vector_store.py` uses batches of 10 with retry logic and delays between batches
-- The `/en/retail/loans` page may return empty content (redirect/JS-only) — this is expected
-- Pre-crawl takes ~5 minutes due to rate limit delays
+- Crawl4AI fetches JS-rendered content from 20 NBG subsites (static product/service pages)
+- Separate `NBG_SCRAPE_URLS` (20 URLs) for live scraping of frequently updated pages (promotions, press, rewards)
+- Azure OpenAI S0 tier has strict rate limits on embeddings — `02_build_vector_store.py` uses batches of 20 with retry logic and 2s delays between batches
 
 ## Commands
 
@@ -211,7 +214,7 @@ Prompts are stored as text files in `config/prompts/` and loaded by `src/agent/p
 
 Two nodes in `src/agent/nodes.py` are stubs with TODO comments:
 
-1. **`classify_query_node`** (line 10) — Uses `ask_llm()` with `CLASSIFICATION_PROMPT` to classify as "rag"/"scrape"/"both"
+1. **`classify_query_node`** (line 10) — Uses `ask_llm()` with `CLASSIFICATION_PROMPT` to classify as "rag"/"scrape"/"both" and pick a `scrape_url` from `NBG_SCRAPE_URLS`
 2. **`generate_answer_node`** (line 46) — Uses `ask_llm()` with `GENERATION_PROMPT` to generate contextual answers
 
 ## Tests (13 total)

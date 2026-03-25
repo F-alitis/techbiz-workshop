@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     # Crawling
     nbg_base_url: str
     nbg_crawl_urls: list[str]
+    nbg_scrape_urls: list[str]
     crawl_rate_limit: float
     crawl_max_depth: int
     crawl_timeout: int

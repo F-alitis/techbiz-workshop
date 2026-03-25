@@ -14,5 +14,6 @@ class AgentState(InputState, total=False):
     rag_context: str
     live_content: str
     next_action: str
+    scrape_url: str
     final_answer: str
     tool_calls: int

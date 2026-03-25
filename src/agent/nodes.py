@@ -12,14 +12,14 @@ def classify_query_node(state: AgentState) -> dict:
 
     TODO: Implement during live demo
     - Use ask_llm() to classify as "rag", "scrape", or "both"
-    - Use CLASSIFICATION_PROMPT with the user's query
-    - Parse the LLM response to extract the classification
+    - Use CLASSIFICATION_PROMPT with the user's query and available scrape URLs
+    - Parse the LLM response to extract the classification and target scrape URL
     """
     # Extract user query from the last message
     messages = state.get("messages", [])
     user_query = messages[-1].content if messages else ""
     # Placeholder: always route to RAG
-    return {"user_query": user_query, "next_action": "rag", "tool_calls": 0}
+    return {"user_query": user_query, "next_action": "rag", "scrape_url": settings.nbg_scrape_urls[0], "tool_calls": 0}
 
 
 def retrieve_from_rag_node(state: AgentState) -> dict:
@@ -34,7 +34,7 @@ def retrieve_from_rag_node(state: AgentState) -> dict:
 
 def scrape_live_node(state: AgentState) -> dict:
     """Scrape live content from NBG website."""
-    url = f"{settings.nbg_base_url}/en/retail"
+    url = state.get("scrape_url", settings.nbg_scrape_urls[0])
     try:
         content = scrape_nbg_page.invoke(url)
     except Exception as e:

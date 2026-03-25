@@ -28,7 +28,7 @@ def main():
     print(f"Created {len(chunks)} chunks from {len(docs)} documents")
 
     import time
-    batch_size = 10
+    batch_size = 20
     total_batches = (len(chunks) + batch_size - 1) // batch_size
     for i in range(0, len(chunks), batch_size):
         batch = chunks[i : i + batch_size]
@@ -46,7 +46,7 @@ def main():
                 else:
                     raise e
         if i + batch_size < len(chunks):
-            time.sleep(5)
+            time.sleep(2)
 
     stats = get_collection_stats()
     print(f"Vector store now has {stats['count']} documents")
