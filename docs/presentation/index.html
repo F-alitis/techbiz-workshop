@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Building AI Agents with LangGraph</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0a1628;
+    --navy-mid: #122240;
+    --navy-light: #1a3055;
+    --gold: #d4a843;
+    --gold-light: #e8c97a;
+    --gold-dim: rgba(212, 168, 67, 0.15);
+    --white: #f0f2f5;
+    --steel: #8a9bb5;
+    --accent-blue: #4a90d9;
+  }
+
+  .reveal-viewport {
+    background: linear-gradient(135deg, #0a1628 0%, #0f1f3d 40%, #162d50 100%);
+  }
+
+  .reveal {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--white);
+  }
+
+  .reveal h1, .reveal h2, .reveal h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--gold);
+    text-transform: none;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+  }
+
+  .reveal h1 { font-size: 2.4em; line-height: 1.15; }
+  .reveal h2 { font-size: 1.6em; margin-bottom: 0.7em; }
+  .reveal h3 { font-size: 1em; color: var(--gold-light); font-weight: 400; }
+
+  .reveal p, .reveal li {
+    color: var(--white);
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  .reveal strong { font-weight: 600; color: #fff; }
+
+  .reveal .secondary { color: var(--steel); }
+
+  .reveal section { text-align: left; }
+
+  .reveal ul { list-style: none; padding-left: 0; }
+  .reveal ul li { margin-bottom: 0.5em; padding-left: 1.4em; position: relative; }
+  .reveal ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 8px;
+    height: 8px;
+    background: var(--gold);
+    border-radius: 2px;
+    transform: rotate(45deg);
+  }
+
+  /* Code */
+  .reveal pre {
+    width: 100%;
+    font-size: 0.48em;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin: 0.5em 0;
+  }
+
+  .reveal pre code {
+    background: rgba(10, 22, 40, 0.9);
+    border: 1px solid rgba(212, 168, 67, 0.2);
+    border-radius: 10px;
+    padding: 1em 1.2em;
+    max-height: 500px;
+    font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+    font-size: 0.95em;
+  }
+
+  .reveal code {
+    font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+  }
+
+  .reveal .slide-number { color: var(--steel); font-size: 14px; }
+
+  /* Glass card */
+  .glass {
+    background: rgba(18, 34, 64, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(212, 168, 67, 0.15);
+    border-radius: 12px;
+    padding: 1em 1.2em;
+  }
+
+  /* ============ TITLE SLIDE ============ */
+  .title-slide { text-align: center; }
+
+  .title-slide .logo {
+    margin-bottom: 1.2em;
+  }
+
+  .title-slide .logo img {
+    height: 70px;
+    opacity: 0.9;
+    filter: brightness(1.1);
+  }
+
+  .title-slide h1 {
+    background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.15em;
+  }
+
+  .title-slide .subtitle {
+    color: var(--steel);
+    font-size: 1.15em;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+  }
+
+  .title-slide .divider {
+    width: 80px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin: 1em auto;
+  }
+
+  .title-slide .date {
+    color: var(--steel);
+    font-size: 0.55em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* ============ HIGHLIGHT BOX ============ */
+  .highlight-box {
+    background: linear-gradient(135deg, rgba(212, 168, 67, 0.08) 0%, rgba(212, 168, 67, 0.15) 100%);
+    border: 1px solid rgba(212, 168, 67, 0.3);
+    border-radius: 10px;
+    padding: 0.7em 1.2em;
+    margin-top: 0.8em;
+    text-align: center;
+    font-size: 0.85em;
+  }
+
+  .highlight-box strong { color: var(--gold); }
+
+  /* ============ CONCEPT CARDS (Slide 4) ============ */
+  .concepts-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7em;
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+  }
+
+  .concept-card {
+    background: rgba(18, 34, 64, 0.6);
+    border: 1px solid rgba(212, 168, 67, 0.15);
+    border-radius: 10px;
+    padding: 0.7em 0.9em;
+    transition: border-color 0.3s;
+  }
+
+  .concept-card .concept-icon {
+    font-size: 1.3em;
+    margin-bottom: 0.2em;
+    display: block;
+  }
+
+  .concept-card strong {
+    color: var(--gold);
+    font-size: 1.05em;
+    display: block;
+    margin-bottom: 0.25em;
+  }
+
+  .concept-card p {
+    color: var(--steel);
+    font-size: 0.9em;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .concept-card code {
+    color: var(--gold-light);
+    font-size: 0.85em;
+    background: rgba(0,0,0,0.3);
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+  }
+
+  /* ============ ARCHITECTURE FLOW (Slide 5) ============ */
+  .arch-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    font-size: 0.72em;
+    margin-top: 0.3em;
+  }
+
+  .arch-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    width: 100%;
+  }
+
+  .arch-node {
+    background: rgba(18, 34, 64, 0.8);
+    border: 2px solid var(--gold);
+    border-radius: 10px;
+    padding: 0.45em 1em;
+    color: var(--white);
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+  }
+
+  .arch-node.stub {
+    border-style: dashed;
+    background: rgba(212, 168, 67, 0.1);
+    box-shadow: 0 0 15px rgba(212, 168, 67, 0.1);
+  }
+
+  .arch-node.terminal {
+    border-radius: 50px;
+    border-color: var(--steel);
+    color: var(--steel);
+    padding: 0.35em 1.2em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+  }
+
+  .arch-arrow-down {
+    color: var(--gold);
+    font-size: 1.5em;
+    line-height: 1;
+    text-align: center;
+    padding: 0.1em 0;
+  }
+
+  .arch-arrow-right {
+    color: var(--gold);
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .arch-branches {
+    display: flex;
+    gap: 1.2em;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .arch-branch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .arch-branch-label {
+    color: var(--steel);
+    font-style: italic;
+    font-size: 0.8em;
+    margin-bottom: 0.2em;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .arch-branch-nodes {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+  }
+
+  .arch-decision {
+    width: 36px;
+    height: 36px;
+    border: 2px solid var(--gold);
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gold-dim);
+    margin: 0.3em 0;
+  }
+
+  .arch-decision span {
+    transform: rotate(-45deg);
+    font-size: 0.7em;
+    color: var(--gold);
+    font-weight: 600;
+  }
+
+  /* ============ TECH GRID (Slide 6) ============ */
+  .tech-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+    font-size: 0.72em;
+    margin-top: 0.3em;
+  }
+
+  .tech-card {
+    background: rgba(18, 34, 64, 0.5);
+    border: 1px solid rgba(212, 168, 67, 0.12);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 10px 10px 0;
+    padding: 0.55em 0.9em;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+  }
+
+  .tech-card .tech-icon {
+    font-size: 1.5em;
+    flex-shrink: 0;
+    width: 1.5em;
+    text-align: center;
+  }
+
+  .tech-card strong {
+    color: var(--white);
+    display: block;
+    font-size: 0.95em;
+    font-weight: 500;
+  }
+
+  .tech-card span {
+    color: var(--steel);
+    font-size: 0.8em;
+  }
+
+  /* ============ PIPELINE (Slide 7) ============ */
+  .pipeline {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0;
+    margin: 1.2em 0;
+  }
+
+  .pipeline-step {
+    background: rgba(18, 34, 64, 0.7);
+    border: 1px solid rgba(212, 168, 67, 0.2);
+    border-radius: 12px;
+    padding: 0.9em 0.8em;
+    text-align: center;
+    flex: 1;
+    max-width: 190px;
+  }
+
+  .pipeline-step .step-num {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: 600;
+    font-size: 0.7em;
+    margin-bottom: 0.4em;
+  }
+
+  .pipeline-step strong {
+    color: var(--gold-light);
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0.3em;
+  }
+
+  .pipeline-step span {
+    color: var(--steel);
+    font-size: 0.6em;
+    line-height: 1.4;
+    display: block;
+  }
+
+  .pipeline-connector {
+    display: flex;
+    align-items: center;
+    padding: 0 0.3em;
+  }
+
+  .pipeline-connector svg {
+    width: 30px;
+    height: 20px;
+  }
+
+  /* ============ GIT LOG (Slide 8) ============ */
+  .git-log {
+    background: rgba(10, 22, 40, 0.9);
+    border: 1px solid rgba(212, 168, 67, 0.15);
+    border-radius: 12px;
+    padding: 1em 1.2em;
+    font-family: 'JetBrains Mono', Consolas, monospace;
+    font-size: 0.5em;
+    line-height: 2;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  }
+
+  .git-log .hash { color: #e5c07b; }
+  .git-log .type-feat { color: #98c379; }
+  .git-log .type-fix { color: #e06c75; }
+  .git-log .type-refactor { color: #61afef; }
+  .git-log .type-chore { color: #c678dd; }
+  .git-log .msg { color: var(--white); }
+  .git-log .prompt { color: #56b6c2; }
+
+  /* ============ CODE COMPARE (Slide 9) ============ */
+  .code-compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8em;
+    margin-top: 0.3em;
+  }
+
+  .code-panel h3 {
+    font-size: 0.7em;
+    margin-bottom: 0.3em;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .code-panel pre { font-size: 0.52em; margin: 0; }
+  .code-panel pre code { padding: 0.6em 0.8em; }
+
+  .label-before { color: #e06c75 !important; }
+  .label-after { color: #98c379 !important; }
+
+  /* ============ SETUP GRID (Slide 10) ============ */
+  .setup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    font-size: 0.72em;
+  }
+
+  .file-tree {
+    background: rgba(10, 22, 40, 0.9);
+    border: 1px solid rgba(212, 168, 67, 0.15);
+    border-radius: 10px;
+    padding: 0.7em 1em;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8em;
+    line-height: 1.7;
+    color: var(--steel);
+  }
+
+  .file-tree .hl { color: var(--gold); font-weight: 500; }
+
+  .cmd-list { list-style: none !important; padding: 0 !important; }
+  .cmd-list li { padding-left: 0 !important; }
+  .cmd-list li::before {
+    content: "$" !important;
+    position: static !important;
+    background: none !important;
+    color: #98c379 !important;
+    margin-right: 0.5em !important;
+    font-family: 'JetBrains Mono', monospace;
+    transform: none !important;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+  }
+
+  .cmd-list li {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+  }
+
+  /* ============ ANIMATIONS ============ */
+  .reveal .slides section .fragment.fade-up {
+    transform: translateY(20px);
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ============== SLIDE 1: TITLE ============== -->
+<section class="title-slide">
+  <div class="logo">
+    <img src="assets/nbg-logo.png" alt="NBG Logo">
+  </div>
+  <h1>Building AI Agents<br>with LangGraph</h1>
+  <div class="divider"></div>
+  <p class="subtitle">NBG Banking Agent &mdash; Hands-On Workshop</p>
+  <p class="date">March 2026</p>
+</section>
+
+<!-- ============== SLIDE 2: WORKSHOP OVERVIEW ============== -->
+<section>
+  <h2>What We're Building Today</h2>
+  <p style="font-size:0.95em; margin-bottom:0.8em;">An <strong>AI-powered banking assistant</strong> for National Bank of Greece that can answer questions about NBG products and services.</p>
+  <div class="concepts-layout" style="font-size:0.78em;">
+    <div class="concept-card" style="text-align:center;">
+      <span class="concept-icon">&#127919;</span>
+      <strong>The Goal</strong>
+      <p>Build a working agent that <strong>decides</strong> how to answer each question &mdash; search a knowledge base, scrape a live webpage, or both.</p>
+    </div>
+    <div class="concept-card" style="text-align:center;">
+      <span class="concept-icon">&#128736;</span>
+      <strong>How We'll Do It</strong>
+      <p>70% is pre-built. You'll <strong>implement 2 key functions</strong> &mdash; the brain (query classification) and the voice (answer generation).</p>
+    </div>
+  </div>
+  <div class="highlight-box" style="margin-top:0.8em;">
+    By the end, you'll have a <strong>fully functional AI agent</strong> running in LangGraph Studio &mdash; with tracing, visual debugging, and real NBG data.
+  </div>
+</section>
+
+<!-- ============== SLIDE 3: WHAT ARE AI AGENTS? ============== -->
+<section>
+  <h2>What Are AI Agents?</h2>
+  <ul>
+    <li><strong>Autonomous decision-making</strong> &mdash; choose actions based on context, not just follow scripts</li>
+    <li><strong>Tool use</strong> &mdash; search databases, call APIs, scrape websites on demand</li>
+    <li><strong>Stateful reasoning</strong> &mdash; maintain memory and context across multiple steps</li>
+    <li><strong>Beyond simple LLM calls</strong> &mdash; orchestrate multi-step workflows with branching logic</li>
+  </ul>
+  <div class="highlight-box">
+    An agent <strong>decides what to do next</strong> based on what it learns along the way.
+  </div>
+</section>
+
+<!-- ============== SLIDE 3: WHY LANGGRAPH? ============== -->
+<section>
+  <h2>Why LangGraph?</h2>
+  <ul>
+    <li><strong>Graph-based orchestration</strong> &mdash; define agent logic as nodes and edges, not linear chains</li>
+    <li><strong>Conditional routing</strong> &mdash; branch execution based on LLM decisions at runtime</li>
+    <li><strong>Built-in state management</strong> &mdash; typed state flows automatically through every node</li>
+    <li><strong>Observability out of the box</strong> &mdash; LangSmith tracing + LangGraph Studio for visual debugging</li>
+  </ul>
+  <div class="highlight-box">
+    Plain chains are linear: A &rarr; B &rarr; C. Agents need <strong>graphs</strong> &mdash; with branches and decisions.
+  </div>
+</section>
+
+<!-- ============== SLIDE 4: LANGGRAPH CORE CONCEPTS ============== -->
+<section>
+  <h2>LangGraph Core Concepts</h2>
+  <div class="concepts-layout">
+    <div class="concept-card">
+      <span class="concept-icon">&#9673;</span>
+      <strong>Nodes</strong>
+      <p>Each node is a <strong>Python function</strong> that receives the current state, does work (call an LLM, query a database), and returns updates to the state.</p>
+    </div>
+    <div class="concept-card">
+      <span class="concept-icon">&#10230;</span>
+      <strong>Edges</strong>
+      <p><strong>Normal edges</strong> always go A &rarr; B.<br><strong>Conditional edges</strong> pick the next node based on a function &mdash; this is how the agent makes decisions.</p>
+    </div>
+    <div class="concept-card">
+      <span class="concept-icon">&#128203;</span>
+      <strong>State</strong>
+      <p>A Python <code>TypedDict</code> that all nodes share. Each node reads what it needs and writes back its results. Think of it as the agent's <strong>working memory</strong>.</p>
+    </div>
+    <div class="concept-card">
+      <span class="concept-icon">&#128172;</span>
+      <strong>Messages</strong>
+      <p><code>HumanMessage</code> (user input) and <code>AIMessage</code> (agent response). The <code>add_messages</code> reducer keeps the full conversation history.</p>
+    </div>
+  </div>
+  <pre style="margin-top:0.3em;"><code class="language-python"># How it all wires together
+graph = StateGraph(AgentState, input=InputState)
+graph.add_node("classify", classify_query_node)    # add a node
+graph.add_node("generate", generate_answer_node)
+graph.add_conditional_edges("classify", route)     # conditional routing
+app = graph.compile()                              # ready to run!</code></pre>
+</section>
+
+<!-- ============== SLIDE 5: ARCHITECTURE OVERVIEW ============== -->
+<section>
+  <h2>Architecture Overview</h2>
+  <div class="arch-flow">
+    <!-- START -->
+    <div class="arch-row">
+      <div class="arch-node terminal">START</div>
+    </div>
+    <div class="arch-arrow-down">&#9663;</div>
+
+    <!-- classify_query -->
+    <div class="arch-row">
+      <div class="arch-node stub">classify_query</div>
+    </div>
+    <div class="arch-arrow-down">&#9663;</div>
+
+    <!-- Decision diamond -->
+    <div class="arch-row">
+      <div class="arch-decision"><span>?</span></div>
+    </div>
+
+    <!-- Three branches side by side -->
+    <div class="arch-branches">
+      <div class="arch-branch">
+        <div class="arch-branch-label">rag</div>
+        <div class="arch-arrow-down" style="font-size:1.1em;">&#9663;</div>
+        <div class="arch-branch-nodes">
+          <div class="arch-node" style="font-size:0.85em;">retrieve_rag</div>
+        </div>
+      </div>
+      <div class="arch-branch">
+        <div class="arch-branch-label">scrape</div>
+        <div class="arch-arrow-down" style="font-size:1.1em;">&#9663;</div>
+        <div class="arch-branch-nodes">
+          <div class="arch-node" style="font-size:0.85em;">scrape_live</div>
+        </div>
+      </div>
+      <div class="arch-branch">
+        <div class="arch-branch-label">both</div>
+        <div class="arch-arrow-down" style="font-size:1.1em;">&#9663;</div>
+        <div class="arch-branch-nodes">
+          <div class="arch-node" style="font-size:0.85em;">retrieve_rag</div>
+          <span class="arch-arrow-right">&rarr;</span>
+          <div class="arch-node" style="font-size:0.85em;">scrape_live</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arch-arrow-down">&#9663;</div>
+
+    <!-- generate_answer -->
+    <div class="arch-row">
+      <div class="arch-node stub">generate_answer</div>
+    </div>
+    <div class="arch-arrow-down">&#9663;</div>
+
+    <!-- END -->
+    <div class="arch-row">
+      <div class="arch-node terminal">END</div>
+    </div>
+  </div>
+  <p class="secondary" style="font-size:0.55em; text-align:center; margin-top:0.4em;">
+    <span style="border-bottom: 2px dashed var(--gold); padding-bottom:2px;">Dashed borders</span> = stubs you will implement today
+  </p>
+</section>
+
+<!-- ============== SLIDE 6: TECH STACK ============== -->
+<section>
+  <h2>Tech Stack</h2>
+  <div class="tech-grid">
+    <div class="tech-card">
+      <div class="tech-icon">&#129302;</div>
+      <div><strong>Azure OpenAI (o4-mini)</strong><span>LLM via Responses API</span></div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-icon">&#128218;</div>
+      <div><strong>ChromaDB</strong><span>Vector store &mdash; similarity search</span></div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-icon">&#128375;</div>
+      <div><strong>Crawl4AI</strong><span>JS-rendered web crawling (offline)</span></div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-icon">&#127760;</div>
+      <div><strong>httpx + BeautifulSoup</strong><span>Lightweight live scraping</span></div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-icon">&#128269;</div>
+      <div><strong>LangSmith</strong><span>Tracing &amp; observability</span></div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-icon">&#127912;</div>
+      <div><strong>LangGraph Studio</strong><span>Visual graph debugging</span></div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-icon">&#9889;</div>
+      <div><strong>uv</strong><span>Fast Python package manager</span></div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-icon">&#128736;</div>
+      <div><strong>Pydantic Settings</strong><span>Type-safe config from .env</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SLIDE 8: DATA PIPELINE ============== -->
+<section>
+  <h2>RAG Data Pipeline</h2>
+  <p style="font-size:0.75em; color:var(--steel); margin-bottom:0.6em;">How we build the agent's <strong style="color:var(--white);">knowledge base</strong> &mdash; crawl NBG's website, split the content into chunks, convert to vectors, and store for similarity search. This runs <strong style="color:var(--white);">before</strong> the workshop.</p>
+  <div class="pipeline">
+    <div class="pipeline-step">
+      <div class="step-num">1</div>
+      <strong>Crawl</strong>
+      <span>Crawl4AI<br>20 NBG pages<br>JS-rendered content</span>
+    </div>
+    <div class="pipeline-connector">
+      <svg viewBox="0 0 30 20"><path d="M0 10 L22 10 M18 5 L24 10 L18 15" fill="none" stroke="#d4a843" stroke-width="2"/></svg>
+    </div>
+    <div class="pipeline-step">
+      <div class="step-num">2</div>
+      <strong>Chunk</strong>
+      <span>1,000 chars<br>200 overlap<br>582 chunks total</span>
+    </div>
+    <div class="pipeline-connector">
+      <svg viewBox="0 0 30 20"><path d="M0 10 L22 10 M18 5 L24 10 L18 15" fill="none" stroke="#d4a843" stroke-width="2"/></svg>
+    </div>
+    <div class="pipeline-step">
+      <div class="step-num">3</div>
+      <strong>Embed</strong>
+      <span>text-embedding-3-small<br>1,536 dimensions<br>batched (20/batch)</span>
+    </div>
+    <div class="pipeline-connector">
+      <svg viewBox="0 0 30 20"><path d="M0 10 L22 10 M18 5 L24 10 L18 15" fill="none" stroke="#d4a843" stroke-width="2"/></svg>
+    </div>
+    <div class="pipeline-step">
+      <div class="step-num">4</div>
+      <strong>Store</strong>
+      <span>ChromaDB<br>cosine similarity<br>top-k retrieval</span>
+    </div>
+  </div>
+  <p class="secondary" style="font-size:0.6em; text-align:center;">
+    Pre-built before the workshop &mdash; students focus on the agent logic
+  </p>
+</section>
+
+<!-- ============== SLIDE 8: BUILT WITH CLAUDE CODE ============== -->
+<section>
+  <h2>Built with Claude Code</h2>
+  <div class="git-log">
+    <span class="prompt">$</span> git log --oneline<br><br>
+    <span class="hash">1ebbd92</span> <span class="type-fix">fix:</span> <span class="msg">add batching and retry logic for embedding rate limits</span><br>
+    <span class="hash">47ea399</span> <span class="type-chore">chore:</span> <span class="msg">reset classify_query stub to rag default</span><br>
+    <span class="hash">ffad0c9</span> <span class="type-refactor">refactor:</span> <span class="msg">single source of truth for config and prompts</span><br>
+    <span class="hash">d36531f</span> <span class="type-feat">feat:</span> <span class="msg">configurable crawl URLs and lightweight live scraper</span><br>
+    <span class="hash">475f743</span> <span class="type-chore">chore:</span> <span class="msg">remove outdated plan document</span><br>
+    <span class="hash">7f0e85f</span> <span class="type-feat">feat:</span> <span class="msg">initial NBG banking agent with LangGraph</span>
+  </div>
+  <div class="highlight-box" style="margin-top:0.8em;">
+    Every commit authored by <strong>Claude Code</strong> &mdash; planning, implementation, debugging, and testing.<br>
+    <span class="secondary" style="font-size:0.8em;">AI-assisted development as a real engineering workflow.</span>
+  </div>
+</section>
+
+<!-- ============== SLIDE 9: WHAT WE'LL BUILD TODAY ============== -->
+<section>
+  <h2>What We'll Build Today</h2>
+  <h3 style="margin-bottom:0.2em;">1. classify_query_node</h3>
+  <div class="code-compare">
+    <div class="code-panel">
+      <h3 class="label-before">Before (stub)</h3>
+      <pre><code class="language-python"># Hardcoded: always route to RAG
+return {
+    "user_query": user_query,
+    "next_action": "rag",
+    "scrape_url": settings.nbg_scrape_urls[0],
+    "tool_calls": 0,
+}</code></pre>
+    </div>
+    <div class="code-panel">
+      <h3 class="label-after">After (your code)</h3>
+      <pre><code class="language-python">prompt = CLASSIFICATION_PROMPT.format(
+    query=user_query,
+    scrape_urls=settings.nbg_scrape_urls,
+)
+result = ask_llm(prompt)
+# Parse: next_action + scrape_url</code></pre>
+    </div>
+  </div>
+  <h3 style="margin-bottom:0.2em; margin-top:0.6em;">2. generate_answer_node</h3>
+  <div class="code-compare">
+    <div class="code-panel">
+      <h3 class="label-before">Before (stub)</h3>
+      <pre><code class="language-python"># Returns placeholder text
+return {
+    "final_answer": "[Demo placeholder]",
+    "messages": [AIMessage(
+        content="Placeholder response"
+    )],
+}</code></pre>
+    </div>
+    <div class="code-panel">
+      <h3 class="label-after">After (your code)</h3>
+      <pre><code class="language-python">prompt = GENERATION_PROMPT.format(
+    rag_context=state.get("rag_context", ""),
+    live_content=state.get("live_content", ""),
+    query=state.get("user_query", ""),
+)
+answer = ask_llm(prompt)</code></pre>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SLIDE 10: HANDS-ON SETUP ============== -->
+<section>
+  <h2>Let's Get Started</h2>
+  <div class="setup-grid">
+    <div>
+      <h3>Project Structure</h3>
+      <div class="file-tree">
+        config/<br>
+        &nbsp;&nbsp;settings.py<br>
+        &nbsp;&nbsp;prompts/<br>
+        src/agent/<br>
+        &nbsp;&nbsp;<span class="hl">nodes.py &larr; edit here!</span><br>
+        &nbsp;&nbsp;graph.py<br>
+        &nbsp;&nbsp;llm.py<br>
+        &nbsp;&nbsp;state.py<br>
+        src/tools/<br>
+        src/rag/<br>
+        tests/
+      </div>
+    </div>
+    <div>
+      <h3>Commands</h3>
+      <ul class="cmd-list">
+        <li>uv sync</li>
+        <li>langgraph dev</li>
+        <li>uv run pytest tests/ -v</li>
+        <li>uv run python main.py</li>
+      </ul>
+      <h3 style="margin-top:0.8em;">LangGraph Studio</h3>
+      <ul>
+        <li>Visual graph execution</li>
+        <li>Step-through debugging</li>
+        <li>LangSmith trace links</li>
+      </ul>
+    </div>
+  </div>
+  <div class="highlight-box" style="margin-top:0.6em;">
+    Open <strong>src/agent/nodes.py</strong> &mdash; implement the two stubs, then watch the graph come alive!
+  </div>
+</section>
+
+</div><!-- /slides -->
+</div><!-- /reveal -->
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: true,
+  center: false,
+  width: 1280,
+  height: 720,
+  margin: 0.08,
+  transition: 'fade',
+  transitionSpeed: 'fast',
+  plugins: [RevealHighlight]
+});
+</script>
+</body>
+</html>
