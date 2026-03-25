@@ -39,6 +39,21 @@ uv run python scripts/02_build_vector_store.py
 uv run python scripts/03_test_retrieval.py
 ```
 
+## Demo Queries
+
+Try these queries to showcase the agent's intelligent routing (RAG, live scrape, or both):
+
+### Combined Knowledge + Live Data (the showstopper)
+- "I have a Gold credit card — what rewards can I earn with go4more and are there any current offers I can use?"
+- "I'm interested in a green mortgage — what are the Estia Green loan terms and is the My Home II state program still available?"
+
+### Live Website Scraping
+- "What are NBG's latest financial results?"
+- "Tell me about the new Skroutz Plus Mastercard"
+
+### Knowledge Base (RAG)
+- "Compare the benefits of a savings account vs a current account"
+
 ## Tests
 
 ```bash
