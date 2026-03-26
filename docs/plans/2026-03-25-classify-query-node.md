@@ -2,16 +2,17 @@
 
 ## Context
 
-The `classify_query_node` in `src/agent/nodes.py:10` is a live-coding stub — currently hardcoded to always return `"rag"`. It needs to use the LLM to classify user queries into `"rag"`, `"scrape"`, or `"both"` and pick the most relevant scrape URL from `NBG_SCRAPE_URLS`. The classification prompt will be enhanced to return JSON (action + URL) instead of a single word.
+The `classify_query_node` in `src/agent/nodes.py:10` is a live-coding stub — currently hardcoded to always return `"rag"`. It needs to use the LLM to classify user queries into `"rag"`, `"scrape"`, or `"both"` and pick the most relevant scrape URLs (up to `SCRAPE_MAX_URLS`) from `NBG_SCRAPE_URLS`. The classification prompt will be enhanced to return JSON (action + URLs list) instead of a single word.
 
 ## Key Files
 
 | File | Action | Role |
 |------|--------|------|
 | `src/agent/nodes.py` | Modify | Replace stub at lines 10-22 with LLM-based classification |
-| `config/prompts/classification.txt` | Modify | Enhance prompt to return JSON with action + URL |
-| `config/settings.py` | Modify | Add `scrape_max_chars` and `vector_store_collection` settings |
-| `.env.example` | Modify | Add `SCRAPE_MAX_CHARS` and `VECTOR_STORE_COLLECTION` |
+| `src/agent/state.py` | Modify | Change `scrape_url: str` to `scrape_urls: list[str]` |
+| `config/prompts/classification.txt` | Modify | Enhance prompt to return JSON with action + URLs list |
+| `config/settings.py` | Modify | Add `scrape_max_chars`, `vector_store_collection`, and `scrape_max_urls` settings |
+| `.env.example` | Modify | Add `SCRAPE_MAX_CHARS`, `VECTOR_STORE_COLLECTION`, and `SCRAPE_MAX_URLS` |
 | `src/tools/rag_retrieval.py` | Modify | Wire `settings.retrieval_top_k` instead of hardcoded `k=5` |
 | `src/tools/live_scraper.py` | Modify | Wire `settings.crawl_timeout` and `settings.scrape_max_chars` |
 | `src/rag/vector_store.py` | Modify | Wire `settings.vector_store_collection` instead of hardcoded `"nbg_docs"` |
@@ -24,21 +25,25 @@ The `classify_query_node` in `src/agent/nodes.py:10` is a live-coding stub — c
 
 ## Requirements
 
-1. **Update `classification.txt`** to instruct the LLM to return JSON: `{"action": "rag"|"scrape"|"both", "url": "<selected_url_or_null>"}` — include `{scrape_urls}` placeholder so the LLM sees all available URLs
-2. **Implement `classify_query_node`**:
-   - Format `CLASSIFICATION_PROMPT` with `{query}` and `{scrape_urls}` (JSON-encoded list)
+1. **Update `classification.txt`** to instruct the LLM to return JSON: `{"action": "rag"|"scrape"|"both", "urls": ["<url1>", "<url2>", ...] or []}` — include `{scrape_urls}` placeholder so the LLM sees all available URLs, and `{max_urls}` so it knows the limit
+2. **Update `src/agent/state.py`** — change `scrape_url: str` to `scrape_urls: list[str]`
+3. **Implement `classify_query_node`**:
+   - Format `CLASSIFICATION_PROMPT` with `{query}`, `{scrape_urls}` (JSON-encoded list), and `{max_urls}`
    - Call `ask_llm()` with the formatted prompt
-   - Parse JSON response; extract `action` and `url`
-   - Fallback to `"rag"` + first URL on any parse error or invalid values
-   - Return `{"user_query": ..., "next_action": ..., "scrape_url": ..., "tool_calls": 0}`
-3. All 13 existing tests must continue to pass
-4. New tests validate parsing, fallback, and prompt formatting
+   - Parse JSON response; extract `action` and `urls` list
+   - Validate each URL against allowed list, filter invalid ones
+   - Truncate to `settings.scrape_max_urls`
+   - Fallback to `"rag"` + `[first_url]` on any parse error or invalid values
+   - Return `{"user_query": ..., "next_action": ..., "scrape_urls": [...], "tool_calls": 0}`
+4. **Update `scrape_live_node`** to loop over `scrape_urls` and concatenate results
+5. All 13 existing tests must continue to pass
+6. New tests validate parsing, fallback, multi-URL handling, and prompt formatting
 
 ## Implementation Phases
 
 ### Phase 0: Wire hardcoded runtime config through settings
 
-Four hardcoded values need to use `config/settings.py` instead:
+Four hardcoded values need to use `config/settings.py` instead, plus new settings:
 
 **0a. `src/tools/rag_retrieval.py` line 16** — `k=5` → `settings.retrieval_top_k`
 ```python
@@ -79,6 +84,43 @@ VECTOR_STORE_COLLECTION=nbg_docs
 ```
 Update vector_store.py to use `settings.vector_store_collection`.
 
+**0e. Add `scrape_max_urls` setting**
+
+Add new setting to `config/settings.py`:
+```python
+scrape_max_urls: int
+```
+Add to `.env.example`:
+```
+SCRAPE_MAX_URLS=3
+```
+
+**0f. Update `src/agent/state.py`** — change `scrape_url: str` to `scrape_urls: list[str]`
+
+Also update `scrape_live_node` in `src/agent/nodes.py` to read `scrape_urls` (list) from state and use the first URL as default:
+```python
+url = state.get("scrape_url", settings.nbg_scrape_urls[0])
+```
+becomes:
+```python
+urls = state.get("scrape_urls", [settings.nbg_scrape_urls[0]])
+```
+
+**0g. Update `scrape_live_node`** to loop over all URLs and concatenate results:
+```python
+def scrape_live_node(state: AgentState) -> dict:
+    """Scrape live content from NBG website."""
+    urls = state.get("scrape_urls", [settings.nbg_scrape_urls[0]])
+    contents = []
+    for url in urls:
+        try:
+            content = scrape_nbg_page.invoke(url)
+            contents.append(f"[Source: {url}]\n{content}")
+        except Exception as e:
+            contents.append(f"[Source: {url}]\nLive scraping failed: {e}")
+    return {"live_content": "\n\n---\n\n".join(contents), "tool_calls": state.get("tool_calls", 0) + 1}
+```
+
 ### Phase 1: Update prompt template
 File: `config/prompts/classification.txt`
 
@@ -93,14 +135,14 @@ Categories:
 - "scrape": Real-time information like current promotions, latest news, or live website content
 - "both": Requires both knowledge base context AND live website data
 
-If the action is "scrape" or "both", select the most relevant URL from this list:
+If the action is "scrape" or "both", select up to {max_urls} most relevant URLs from this list:
 {scrape_urls}
 
 Respond with ONLY valid JSON, no other text:
-{{"action": "rag"|"scrape"|"both", "url": "<selected_url_or_null>"}}
+{{"action": "rag"|"scrape"|"both", "urls": ["<url1>", "<url2>"] or []}}
 
-Example: {{"action": "scrape", "url": "https://www.nbg.gr/en/go4more"}}
-Example: {{"action": "rag", "url": null}}
+Example: {{"action": "scrape", "urls": ["https://www.nbg.gr/en/go4more", "https://www.nbg.gr/en/go4more/offers"]}}
+Example: {{"action": "rag", "urls": []}}
 
 User query: {query}
 ```
@@ -116,6 +158,7 @@ def classify_query_node(state: AgentState) -> dict:
     prompt = CLASSIFICATION_PROMPT.format(
         query=user_query,
         scrape_urls=json.dumps(settings.nbg_scrape_urls, indent=2),
+        max_urls=settings.scrape_max_urls,
     )
     raw = ask_llm(prompt)
 
@@ -123,18 +166,20 @@ def classify_query_node(state: AgentState) -> dict:
     try:
         parsed = json.loads(raw.strip())
         action = parsed.get("action", "rag")
-        url = parsed.get("url")
+        urls = parsed.get("urls", [])
     except (json.JSONDecodeError, AttributeError):
         action = "rag"
-        url = None
+        urls = []
 
     # Validate
     if action not in ("rag", "scrape", "both"):
         action = "rag"
-    if not url or url not in settings.nbg_scrape_urls:
-        url = settings.nbg_scrape_urls[0]
+    # Filter to allowed URLs and truncate to max
+    urls = [u for u in urls if u in settings.nbg_scrape_urls][:settings.scrape_max_urls]
+    if not urls:
+        urls = [settings.nbg_scrape_urls[0]]
 
-    return {"user_query": user_query, "next_action": action, "scrape_url": url, "tool_calls": 0}
+    return {"user_query": user_query, "next_action": action, "scrape_urls": urls, "tool_calls": 0}
 ```
 
 Add `import json` at the top of the file.
@@ -144,18 +189,19 @@ File: `tests/test_nodes.py` (new file)
 
 Mock `ask_llm` using `unittest.mock.patch` to avoid real API calls. Test cases:
 
-1. Valid `{"action": "rag", "url": null}` → `next_action="rag"`, `scrape_url=first_url`
-2. Valid `{"action": "scrape", "url": "https://www.nbg.gr/en/go4more"}` → correct action + URL
-3. Valid `{"action": "both", "url": "https://www.nbg.gr/en/go4more/offers"}` → both + URL
-4. Malformed response (plain text "rag") → fallback `"rag"` + first URL
+1. Valid `{"action": "rag", "urls": []}` → `next_action="rag"`, `scrape_urls=[first_url]`
+2. Valid `{"action": "scrape", "urls": ["https://www.nbg.gr/en/go4more"]}` → correct action + URL
+3. Valid `{"action": "both", "urls": ["https://www.nbg.gr/en/go4more", "https://www.nbg.gr/en/go4more/offers"]}` → both + 2 URLs
+4. Malformed response (plain text "rag") → fallback `"rag"` + `[first_url]`
 5. Invalid action `{"action": "invalid"}` → fallback `"rag"`
-6. URL not in allowed list `{"action": "scrape", "url": "https://evil.com"}` → first URL
+6. URL not in allowed list `{"action": "scrape", "urls": ["https://evil.com"]}` → `[first_url]`
+7. More URLs than `scrape_max_urls` → truncated to max
 
 ## Tests
 
 | Test File | Count | Validates |
 |-----------|-------|-----------|
-| `tests/test_nodes.py` | 6 | JSON parsing, action validation, URL validation, fallback behavior |
+| `tests/test_nodes.py` | 7 | JSON parsing, action validation, multi-URL validation, truncation, fallback behavior |
 
 ## Test Validation
 
@@ -163,15 +209,17 @@ Mock `ask_llm` using `unittest.mock.patch` to avoid real API calls. Test cases:
 uv run pytest tests/ -v
 ```
 
-Expected: 13 existing + 6 new = 19 tests pass.
+Expected: 13 existing + 7 new = 20 tests pass.
 
 ## Success Criteria
 
 - [ ] `classify_query_node` calls `ask_llm()` with the enhanced prompt
 - [ ] Valid LLM responses route correctly (`rag`/`scrape`/`both`)
-- [ ] Malformed or unexpected responses fall back to `"rag"` + first URL
-- [ ] Selected `scrape_url` is always from `NBG_SCRAPE_URLS`
-- [ ] All 19 tests pass (`uv run pytest tests/ -v`)
+- [ ] Classifier returns up to `SCRAPE_MAX_URLS` URLs (default 3)
+- [ ] Malformed or unexpected responses fall back to `"rag"` + `[first_url]`
+- [ ] All selected `scrape_urls` are from `NBG_SCRAPE_URLS`
+- [ ] `scrape_live_node` scrapes all URLs and concatenates results
+- [ ] All 20 tests pass (`uv run pytest tests/ -v`)
 - [ ] E2E: queries route to correct graph branch in `langgraph dev`
 
 ## Team Structure

@@ -55,6 +55,12 @@ Structure your response using markdown:
 - Include specific details such as rates, terms, fees, and eligibility criteria when available
 - Keep paragraphs concise — prefer short, focused sections over long blocks of text
 
+## Source Links
+
+When citing specific information, include the source URL as a markdown link. ONLY use URLs that appear in the [Source: ...] tags in the context above — never fabricate or guess URLs. Format as:
+- Inline: "The **Gold Credit Card** ([details](https://www.nbg.gr/en/...)) offers..."
+- Or as a "Learn more" footer per section: "[Learn more](https://www.nbg.gr/en/...)"
+
 ## Context
 
 ### Knowledge Base
