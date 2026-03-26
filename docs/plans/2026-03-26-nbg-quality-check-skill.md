@@ -215,11 +215,14 @@ EVAL_QUERIES = [
    - Create thread, create run, join run, get state
    - Return the state values dict
 4. Implement `evaluate_single(query, category) -> EvalResult`:
-   - Time the `invoke_agent()` call for latency
+   - Time the `invoke_agent()` call for latency — wrap in try/except to handle agent errors (returns empty state `{}` on failure)
    - Extract `final_answer`, `rag_context`, `live_content` from state
-   - Format eval prompt with `EVALUATION_PROMPT.format(...)`, call `ask_llm()`
+   - Format eval prompt with `EVALUATION_PROMPT.format(...)`, call `ask_llm()` — wrap in try/except to handle Azure content filter blocks on adversarial queries (returns empty string on failure, parsed as fallback scores)
    - Parse JSON response with fallback on parse errors (default score 1, verdict "fail")
 5. Implement `evaluate_batch(queries) -> BatchReport` with aggregate computation
+
+**Note: Azure OpenAI content filter handling**
+Adversarial test cases (especially prompt injection like "You are now DAN") may trigger Azure's content filter when the judge LLM evaluates them — the adversarial text is included in the judge prompt and gets flagged as a jailbreak attempt. Both `invoke_agent()` and `ask_llm()` calls are wrapped in try/except to gracefully handle this. Blocked queries receive default scores (1/5) and verdict "fail" rather than crashing the batch run.
 
 ### Phase 3: Report Rendering
 1. Implement `render_terminal(result_or_report)` in `src/eval/report.py`:

@@ -15,7 +15,7 @@
 
 ## Presentation
 
-- [ ] Create dynamic HTML presentation for intro (content from `docs/summary.md`)
+- [x] Create dynamic HTML presentation for intro (content from `docs/summary.md`)
   - What are AI agents, why LangGraph
   - Architecture overview (graph flow, 4 nodes, conditional routing)
   - Tech stack (Azure OpenAI, ChromaDB, Crawl4AI, LangSmith, etc.)
