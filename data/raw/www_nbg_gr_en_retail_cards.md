@@ -1,0 +1,815 @@
+[ Individuals ](https://www.nbg.gr/en/individuals)[ Premium Banking ](https://www.nbg.gr/en/premium-banking)[ Private Banking ](https://www.nbg.gr/en/private-banking)[ Business Banking ](https://www.nbg.gr/en/business)[ Corporate & Investment Banking ](https://www.nbg.gr/en/corporate)
+[ Go For More ](https://www.nbg.gr/en/go4more)[ NBG Group ](https://www.nbg.gr/en/group)
+[EN](https://www.nbg.gr/)
+  * [ΕΛ](https://www.nbg.gr/)
+
+[ΕΛ](https://www.nbg.gr/el)
+[ Digital Banking](https://www.nbg.gr/en/individuals)
+[![NBG Logo](https://www.nbg.gr/-/jssmedia/nbgportal/src/en-logo-black.svg)![NBG Logo](https://www.nbg.gr/-/jssmedia/nbgportal/src/en-logo-black.svg)](https://www.nbg.gr/en/individuals)
+  * [Everyday needs](https://www.nbg.gr/en/individuals/daily-transactions)
+    * [Accounts](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts)
+    * [Packages](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages)
+    * [Cards](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+    * [Digital Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking)
+    * [Other services ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services)
+    * [Useful tools](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools)
+[ Find the account that best suits your needs ](https://www.nbg.gr/en/individuals/daily-transactions/accounts-for-individuals)
+You may like
+[Benefits AccountToday, you can take advantage of the new era of banking transactions by acquiring the new Benefits Account, for reduced costs and significant benefits in every transaction. ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/benefits-account)
+[ Everyday accounts ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts)
+[ NBG Savings Account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts/savings-account)
+[ NBG Current Account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts/current-account)
+[ Student account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts/student-life)
+[ Foreign currency savings account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts/foreign-currency-savings-account)
+[ Salary accounts ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/salary-pension-accounts)
+[ Benefits Salary Account ](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages/benefits-salary-account)
+[ Salary Reward ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/salary-pension-accounts/reward-payroll-account)
+[ I want to see all accounts ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts)
+You may like
+[Plus Benefits AccountDiscover the Plus Benefits Account for transactions with reduced costs and more benefits. ](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages/plus-benefits-account)
+[Benefits Salary AccountDiscover the Benefits Salary Account and get benefits and reduced costs In your transactions. ](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages/benefits-salary-account)
+[ I want to see all packages ](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages)
+[ Find the card that best suits your needs ](https://www.nbg.gr/en/individuals/daily-transactions/find-the-right-card)
+You may like
+[Dual CardOne card, two ways to pay, debit and credit, exclusively from National Bank of Greece.](https://www.nbg.gr/en/individuals/daily-transactions/cards/dual-card)
+[Virtual Prepaid MastercardYou have control over your online shopping. You better manage your finances and keep your banking data confidential.](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards/virtual-prepaid-mastercard)
+[Υπηρεσία Επιλογή σε ΔόσειςΓνωρίστε την υπηρεσία που μετατρέπει τις εφάπαξ συναλλαγές της χρεωστικής σας κάρτας, σε έως και 12 δόσεις στην πιστωτική σας κάρτα, μέσω Internet Βanking!](https://www.nbg.gr/en/individuals/daily-transactions/cards/installment-selection-program)
+[ Credit card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards)
+[ Silver ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/silver)
+[ Gold ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/gold)
+[ Black ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/black)
+[ Dual card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/dual-card)
+[ Flexy card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/virtual-credit-card-flexy)
+[ Skroutz Plus Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/skroutz-plus-mastercard)
+[ Toyota Visa ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/toyota-visa)
+[ My Club Card Visa ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/my-club-card-visa)
+[ Debit card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/debit-cards)
+[ Dual card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/dual-card)
+[ Debit Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/debit-cards/mastercard-debit-card)
+[ Prepaid card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards)
+[ Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards/prepaid-mastercard)
+[ Virtual Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards/virtual-prepaid-mastercard)
+[ Social Solidarity Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards/social-solidarity-prepaid-mastercard)
+[ I want to see all cards ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Digital Banking capabilities ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities)
+Discover
+[Internet BankingYou can access the bank from wherever you are, easily and quickly from your desktop. Follow your transactions and payments on your screen.](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-banking)
+[Mobile BankingYou can have your bank on your mobile. This way, you can easily make your transactions from your screen.](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/mobile-banking)
+[ Transactions ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Digital Onboarding ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/customer-onboarding)
+[ Open new account ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/open-an-account-online)
+[ Debit cards ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/acquire-a-debit-card-online)
+[ Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/acquire-a-prepaid-card-online)
+[ Virtual prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/issue-a-virtual-prepaid-mastercard-online)
+[ Money Box ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/moneybox)
+[ IRIS Payments ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/iris-payments)
+[ Digital wallets ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/digital-wallet-all-your-cards-one-touch-away)
+[ Account aggregation ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/account-aggregation)
+[ Statements ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/statements)
+[ Alerts ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/alerts)
+[ Insure & Invest ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Card insurance ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/online-card-insurance)
+[ Car insurance ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/car-insurance)
+[ Health insurance ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/full-preventive-healthcare)
+[ Time deposit accounts online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/open-a-time-deposit-account-online)
+[ Stocks online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/stock-market-transactions)
+[ Investment products online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/investment-products)
+[ Mutual Funds investment ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/mutual-funds-investment)
+[ Lending ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Credit cards ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/acquire-a-credit-card-online)
+[ EXPRESS personal loan ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/express)
+[ I want to see all Digital Banking capabilities ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking)
+[ Security & Information ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Transaction security ](https://www.nbg.gr/en/footer/everything-you-need-for-the-security-of-your-transactions)
+[ Push notifications ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/push-notifications)
+[ Digital Banking credentials ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/register-for-digital-banking)
+[ Personal details' update via Digital Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/i-bank-profile-update)
+[ Transactions approval at Digital Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/transactions-approval)
+[ Cards & account settings online management ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/secure-your-card-account-online)
+[ Additional Transaction Authenticator (3FA) ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/additional-transaction-authenticator-3fa)
+[ Other ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Add a co-beneficiary online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/add-a-cobeneficiary-online)
+[ Digital services ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/services)
+[ Sign and send documents online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/sign-and-send-documents-online)
+[ Safe deposit ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services/safe-deposit-boxes)
+[ Cheques and payments in euro ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services/check-money-transfer-orders-in-euro)
+[ Send money abroad (euros) ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services/foreign-remittances-in-euro)
+[ SEPA Instant payments ](https://www.nbg.gr/en/lp/sepa-instant-payments)
+[ I want to see all transaction services ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services)
+You may like
+[Eligibility toolFind the right mortgage loan quickly and easily, according to your needs and desires.](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/mortgage-eligibility-tool)
+[Mortgage calculatorCalculate easily and quickly how much money you can borrow to buy the house you want.](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/mortgage-calculator)
+[IBAN calculatorThe easiest wat to convert an account number to an IBAN or make sure that an IBAN is valid, in just a single step.](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/iban-calculator)
+[ Go For More points calculator ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/go4more-points-calculator)
+[ I want to see all online banking tools ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools)
+[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+  * [Borrowing](https://www.nbg.gr/en/individuals/loans)
+    * [Mortgage ](https://www.nbg.gr/en/individuals/loans/mortgages)
+    * [For personal use](https://www.nbg.gr/en/individuals/loans/personal-loans)
+    * [Debt consolidation](https://www.nbg.gr/en/individuals/loans/dept-settlement)
+    * [Studies ](https://www.nbg.gr/en/individuals/loans/student-loans)
+    * [Eco solutions](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans)
+    * [Property](https://www.nbg.gr/en/individuals/loans/find-your-mortgage)
+[ Find the mortgage that best suits your needs ](https://www.nbg.gr/en/individuals/loans/find-your-mortgage-loan)
+You may like
+[Ηousing program ‘Spiti mou ΙΙ’Design the life you want in your own home.](https://www.nbg.gr/en/individuals/loans/mortgages/my-home-ii-state-housing-program)
+[“Upgrade my home” programYou too can make your home more energy efficient and environmentally friendly, with favourable terms.](https://www.nbg.gr/en/individuals/loans/mortgages/repair-renovation-loans/upgrade-my-home)
+[ For purchase ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans)
+[ my First Home ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans/my-first-home-primary-residence-loan)
+[ Estia Fixed ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans/estia-fixed)
+[ Estia Green ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans/estia-green)
+[ Estia Privilege ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans/estia-privilege)
+[ Eligibility tool ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/mortgage-eligibility-tool)
+[ For renovation - Repairs ](https://www.nbg.gr/en/individuals/loans/mortgages/repair-renovation-loans)
+[ “Upgrade my home” program ](https://www.nbg.gr/en/individuals/loans/mortgages/repair-renovation-loans/upgrade-my-home)
+[ Estia Renovation ](https://www.nbg.gr/en/individuals/loans/mortgages/repair-renovation-loans/estia-renovation)
+[ Reward program for performing borrowers ](https://www.nbg.gr/en/individuals/loans/mortgages/reward-program-for-performing-borrowers)
+[ I want to see all mortgages ](https://www.nbg.gr/en/individuals/loans/mortgages)
+[ Find the personal loan that best suits your needs ](https://www.nbg.gr/en/individuals/loans/find-your-personal-loan)
+You may like
+[EXPRESS personal loanWith an EXPRESS loan, you get up to €6,000 in cash the moment you need it, quickly and easily via your desktop or mobile.](https://www.nbg.gr/en/individuals/loans/personal-loans/express)
+[Consumer loan EXPRESS PlusThrough our EXPRESS Plus consumer loan, you can get a loan for any amount οver €6,000 and up to €20,000 at any time you want, from the comfort of your desktop, in a few simple steps.](https://www.nbg.gr/en/individuals/loans/personal-loans/consumer-loan-express-plus)
+[ Reward ](https://www.nbg.gr/en/individuals/loans/personal-loans/reward)
+[ Personal loan with mortgage prenotation ](https://www.nbg.gr/en/individuals/loans/personal-loans/with-mortgage-prenotation)
+[ Overdraft ](https://www.nbg.gr/en/individuals/loans/personal-loans/overdraft)
+[ Personal loan backed by liquid assets ](https://www.nbg.gr/en/individuals/loans/personal-loans/backed-by-liquid-assets)
+[ I want to see all personal loans ](https://www.nbg.gr/en/individuals/loans/personal-loans)
+[ Find the debt consolidation solution that suits you best ](https://www.nbg.gr/en/individuals/loans/find-dept-settlement-solutions)
+You may like
+[Weight off your shoulders NBG debtsGet better control over your finances, by easily transferring installments from all your NBG products in one payment.](https://www.nbg.gr/en/individuals/loans/dept-settlement/weight-off-your-shoulders-for-nbg-debtors)
+[Retail Banking & Products of Small & Medium-sized Enterprises (SMEs) Overdue Demands We provide you with the opportunity of settling your overdue debts. Let us find together a solution that best suits your needs. ](https://www.nbg.gr/en/individuals/loans/dept-settlement/overdue-debts)
+[ I want to see all debt settlement solutions ](https://www.nbg.gr/en/individuals/loans/dept-settlement)
+[ Find the student loan that best suits your needs ](https://www.nbg.gr/en/individuals/loans/find-your-student-loan)
+You may like
+[Student loanWith the Student Life loan, you can cover your needs and pay low monthly installments for the first year. This way, you can manage your budget even better.](https://www.nbg.gr/en/individuals/loans/student-loans/student-life)
+[Student Loan ProgramBacked by the European Investment Fund (EIF), exclusively designed for students.](https://www.nbg.gr/en/individuals/loans/student-loan)
+[ I want to see all student loans ](https://www.nbg.gr/en/individuals/loans/student-loans)
+[ Find green solutions that best suit your needs ](https://www.nbg.gr/en/individuals/loans/find-your-eco-loan)
+You may like
+[Green LoanYou can cover your needs, with respect to the environment, with a green loan. Upgrade the energy efficiency of your house.](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/green-loan)
+[“Exoikonomo 2025” programEnergy-saving house? Of course, with the help of NBG. Find all the necessary support and guidance you need to upgrade your home.](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/exoikonomo-2025)
+[Green Loan guaranteed by EIFWe, at NBG, bring first the Green Loan to your home, backed by the guarantee of the European Investment Fund (EIF).](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/green-loan-guaranteed-by-eif)
+[ Exoikonomo-Anakainizo gia neous ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/save-renovate-youth-loan)
+[ Exoikonomo 2023 ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/exoikonomo-2023-personal-loan)
+[ Exoikonomo – Autonomo Expression of Interest Form ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/exoikonomo-2025/exoikonomw-form)
+[ I want to see all eco loans ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans)
+[ Find property solutions that best suit your needs ](https://www.nbg.gr/en/individuals/loans/find-real-estate-loans)
+You may like
+[Property loan for other uses Buy or renovate your property for office or other use, with favorable financing terms. Pay low monthly installments and repay in up to 40 years.](https://www.nbg.gr/en/individuals/loans/find-your-mortgage/mortgage-loan-for-other-uses)
+[ I want to see all mortgages ](https://www.nbg.gr/en/individuals/loans/find-your-mortgage)
+[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+  * [Saving and investing](https://www.nbg.gr/en/individuals/savings-investments)
+    * [Savings solutions](https://www.nbg.gr/en/individuals/savings-investments/saving-programs)
+    * [Investment solutions](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions)
+[ Find the savings solution that best suits your needs ](https://www.nbg.gr/en/individuals/savings-investments/saving-solutions)
+[ For my child ](https://www.nbg.gr/en/individuals/savings-investments/saving-programs/for-children)
+[ NBG Children ](https://www.nbg.gr/en/individuals/savings-investments/saving-programs/for-children/nbg-children)
+[ I want to see all saving programs ](https://www.nbg.gr/en/individuals/savings-investments/saving-programs)
+[ Find investment solutions that best suit your needs ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions)
+[ Time deposit accounts ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts)
+[ Time deposit accounts in euro ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/time-deposit-accounts-in-euro)
+[ Time deposits in foreign currency ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/foreign-currency-time-deposits)
+[ 18-month Time Deposit in USD ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/18-month-time-deposit-in-usd)
+[ New Time Deposit Programs ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/deposit-programs)
+[ Monthly ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/monthly)
+[ e-Term Deposits ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/e-term-deposits)
+[ e-Term Deposits for 1, 3, 6, 9 & 12 Months ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/e-term-deposits/1-3-6-12-months)
+[ Investments ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments)
+[ Mutual Fund: NBG Asset Allocation Fund of Funds ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/mutual-fund-of-funds)
+[ DELOS EXTRA INCOME 36month VII - Bond Fund ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions/dhlos-extra-income-36-months-vii-omologiako)
+[ New Generation Investment ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/new-generation-investment)
+[ Delos Mutual Funds ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/mutual-funds-dilos)
+[ SICAV mutual funds NBG AM Luxembourg ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/mutual-funds-ucits)
+[ Third party UCITS ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/third-party-mutual-funds)
+[ Bonds ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/bonds)
+[ Shares ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/stocks)
+[ Investing in Mutual Funds through periodic payments ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions/ependysi-sta-metra-mou)
+[ Investment tailored for me ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions/ependysi-sta-metra-mou)
+[ Investment-insurance solutions ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investment-insurance-products)
+[ Full [10 Bond Fund] ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions/full-omologiako-10)
+[ Full Capital Plan ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investment-insurance-products/full-capital-plan)
+[ Full Capital Plan Shield investment program ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investment-insurance-products/full-plan-shield-investment-programm)
+[ Full Life Plan ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investment-insurance-products/full-life-plan)
+[ I want to see all investment solutions ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions)
+[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+  * [Insuring](https://www.nbg.gr/en/individuals/insurance-programs)
+    * [Vehicles](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs)
+    * [Health ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs)
+    * [Life](https://www.nbg.gr/en/individuals/insurance-programs/asfalistika-zois)
+    * [Home](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance)
+    * [Cards and personal items](https://www.nbg.gr/en/individuals/insurance-programs/card-personal-belongings-insurance)
+    * [Online risks](https://www.nbg.gr/en/individuals/insurance-programs/online-risks)
+[ Find the vehicle insurance that best suits your needs ](https://www.nbg.gr/en/individuals/insurance-programs/find-vehicle-insurance-solutions)
+You may like
+[Auto Protect (Private car & Motorcycle) insurance planYou can count on Ethniki General Insurance for your car insurance and have one less thing to worry about, easily and reliably.](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs/auto-protect)
+[Private-use farm truck insurance programChoose the package and the duration that best fits your needs and insure the vehicle you trust every day, with flexibility and privileges.](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs/private-use-farm-truck-insurance)
+[ I want to see all vehicle insurance programs ](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs)
+[ Find the health insurance that best suits your needs ](https://www.nbg.gr/en/individuals/insurance-programs/find-health-insurance-solutions)
+You may like
+[Full HealthChoose the hospital care plan Full Health and feel safe, by covering your hospitalization costs in Greece or abroad in a flexible way.](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs/full-health)
+[Full Hospital CareEnsure you're covered in the event of hospitalization and/or surgery at any hospital, whether due to illness or accident.](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs/full-hospital-care)
+[Full Health Emergency CareCover expenses in the event of emergencies at outpatient clinics or emergency departments, using a flexible plan that does not require you to fill out a health questionnaire.](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs/full-health-emergency-care-insurance-plan)
+[ ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Full Preventive healthcare ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs/full-prevention)
+[ I want to see all health insurance programs ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs)
+[Full Life InsuranceTake care of your loved ones.](https://www.nbg.gr/en/individuals/insurance-programs/asfalistika-zois/full-life-insurance-life-insurance-program-for-individuals)
+[Life insurance for mortgage loan borrowersFor you and your family.](https://www.nbg.gr/en/individuals/insurance-programs/mortgage-borrower-life-insurance)
+[ Find the home insurance that best suits your needs ](https://www.nbg.gr/en/individuals/insurance-programs/find-home-insurance-solutions)
+You may like
+[Home insuranceYou can simplify your everyday life by insuring your home or your summer home according to your individual needs. ](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance/full-home-protection)
+[Property insuranceInsuring your home, office or business against fire, earthquake or theft, you will have one less thing to worry about.](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance/property-insurance)
+[ I want to see all home insurance solutions ](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance)
+[ Find the card & personal items insurance that best suits your needs ](https://www.nbg.gr/en/individuals/insurance-programs/card-and-personal-items-insurance)
+You may like
+[Card and personal items insurance Receive compensation in the event that your card and all the personal items you carry with you get stolen. All this with just €28 per year.](https://www.nbg.gr/en/individuals/insurance-programs/card-personal-belongings-insurance/card-insurance)
+[ I want to see all card & personal belongings insurance ](https://www.nbg.gr/en/individuals/insurance-programs/card-personal-belongings-insurance)
+[Full Cyber ProtectionYou can now provide insurance protection to you and your family members against cyber and electronic risks. ](https://www.nbg.gr/en/individuals/insurance-programs/online-risks/full-cyber-protection-insurance-plan)
+[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+  * [Planning tomorrow](https://www.nbg.gr/en/individuals/life-moments)
+[Health and SafetyWe're here to offer answers to common questions, such as everyday habits for better health or the key features of a good insurance plan.](https://www.nbg.gr/en/individuals/life-moments/health-safety)
+[TravelsWe’re here to offer ideas on research, organization, place, preparation or early savings that can make any trip an unforgettable experience.](https://www.nbg.gr/en/individuals/life-moments/entertainment)
+[Life and FamilyFun, health, saving money, quality time together, daily habits, and studies are just some of the topics discussed in the following articles.](https://www.nbg.gr/en/individuals/life-moments/family)
+[My financesWe are here to offer ideas and solutions on how to manage your finances better, from your bills and cards, to your investments and your goals.](https://www.nbg.gr/en/individuals/life-moments/my-finances)
+[My homeTo feel good in your home, live the moments you have imagined in it, and take care of it we offer ideas and tips for intelligent space management.](https://www.nbg.gr/en/individuals/life-moments/my-home)
+[Overcoming difficultiesLife can sometimes be unpredictable. We are here to offer solutions and ways to help so you can deal with difficult times.](https://www.nbg.gr/en/individuals/life-moments/financial-difficulties)
+[Studies and CareerChoosing a course of study or a first job? Study and work are key pillars of life, and whatever stage you’re at, we offer valuable insights.](https://www.nbg.gr/en/individuals/life-moments/studies-career)
+[Energy and EnvironmentLearn about environmental protection, energy issues and green habits that can benefit you in many ways.](https://www.nbg.gr/en/individuals/life-moments/energy-environment)
+[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+  * [I need more information](https://www.nbg.gr/en/individuals/questions)
+[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+
+
+Search for[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Individuals ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[Go For More](https://www.nbg.gr/en/go4more)[NBG Group](https://www.nbg.gr/en/group)
+[Digital Banking](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[ Premium Banking ](https://www.nbg.gr/en/premium-banking)
+[ Private Banking ](https://www.nbg.gr/en/private-banking)
+[ Business Banking ](https://www.nbg.gr/en/business)
+[ Corporate & Investment Banking ](https://www.nbg.gr/en/corporate)
+[ Go For More ](https://www.nbg.gr/en/go4more)
+[ NBG Group ](https://www.nbg.gr/en/group)
+[![NBG Logo](https://www.nbg.gr/-/jssmedia/nbgportal/src/en-logo-black.svg)![NBG Logo](https://www.nbg.gr/-/jssmedia/nbgportal/src/en-logo-black.svg)](https://www.nbg.gr/en/individuals)
+Search for[](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[](https://www.nbg.gr/en/individuals/daily-transactions/cards)[hamburger-text](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+  * [Everyday needs](https://www.nbg.gr/en/individuals/daily-transactions)
+[Everyday needs](https://www.nbg.gr/en/individuals/daily-transactions)
+    * [Accounts](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts)
+[Accounts](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts)
+      * [Find the account that best suits your needs](https://www.nbg.gr/en/individuals/daily-transactions/accounts-for-individuals)
+      * [ Benefits Account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/benefits-account)
+      * [ Everyday accounts ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts)
+      * [ NBG Savings Account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts/savings-account)
+      * [ NBG Current Account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts/current-account)
+      * [ Student account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts/student-life)
+      * [ Foreign currency savings account ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/everyday-accounts/foreign-currency-savings-account)
+      * [ Salary accounts ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/salary-pension-accounts)
+      * [ Benefits Salary Account ](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages/benefits-salary-account)
+      * [ Salary Reward ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts/salary-pension-accounts/reward-payroll-account)
+      * [ I want to see all accounts ](https://www.nbg.gr/en/individuals/daily-transactions/banking-accounts)
+    * [Packages](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages)
+[Packages](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages)
+      * [ Plus Benefits Account ](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages/plus-benefits-account)
+      * [ Benefits Salary Account ](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages/benefits-salary-account)
+      * [ I want to see all packages ](https://www.nbg.gr/en/individuals/daily-transactions/reward-packages)
+    * [Cards](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[Cards](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+      * [Find the card that best suits your needs](https://www.nbg.gr/en/individuals/daily-transactions/find-the-right-card)
+      * [ Dual Card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/dual-card)
+      * [ Virtual Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards/virtual-prepaid-mastercard)
+      * [ Υπηρεσία Επιλογή σε Δόσεις ](https://www.nbg.gr/en/individuals/daily-transactions/cards/installment-selection-program)
+      * [ Credit card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards)
+      * [ Silver ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/silver)
+      * [ Gold ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/gold)
+      * [ Black ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/black)
+      * [ Dual card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/dual-card)
+      * [ Flexy card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/virtual-credit-card-flexy)
+      * [ Skroutz Plus Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/skroutz-plus-mastercard)
+      * [ Toyota Visa ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/toyota-visa)
+      * [ My Club Card Visa ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/my-club-card-visa)
+      * [ Debit card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/debit-cards)
+      * [ Dual card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/dual-card)
+      * [ Debit Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/debit-cards/mastercard-debit-card)
+      * [ Prepaid card ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards)
+      * [ Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards/prepaid-mastercard)
+      * [ Virtual Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards/virtual-prepaid-mastercard)
+      * [ Social Solidarity Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards/social-solidarity-prepaid-mastercard)
+      * [ I want to see all cards ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+    * [Digital Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking)
+[Digital Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking)
+      * [Digital Banking capabilities](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities)
+      * [ Internet Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-banking)
+      * [ Mobile Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/mobile-banking)
+      * [ Transactions ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+      * [ Digital Onboarding ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/customer-onboarding)
+      * [ Open new account ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/open-an-account-online)
+      * [ Debit cards ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/acquire-a-debit-card-online)
+      * [ Prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/acquire-a-prepaid-card-online)
+      * [ Virtual prepaid Mastercard ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/issue-a-virtual-prepaid-mastercard-online)
+      * [ Money Box ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/moneybox)
+      * [ IRIS Payments ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/iris-payments)
+      * [ Digital wallets ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/digital-wallet-all-your-cards-one-touch-away)
+      * [ Account aggregation ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/account-aggregation)
+      * [ Statements ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/statements)
+      * [ Alerts ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/alerts)
+      * [ Insure & Invest ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+      * [ Card insurance ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/online-card-insurance)
+      * [ Car insurance ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/car-insurance)
+      * [ Health insurance ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/full-preventive-healthcare)
+      * [ Time deposit accounts online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/open-a-time-deposit-account-online)
+      * [ Stocks online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/stock-market-transactions)
+      * [ Investment products online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/investment-products)
+      * [ Mutual Funds investment ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/mutual-funds-investment)
+      * [ Lending ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+      * [ Credit cards ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/acquire-a-credit-card-online)
+      * [ EXPRESS personal loan ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/express)
+      * [ I want to see all Digital Banking capabilities ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking)
+      * [ Security & Information ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+      * [ Transaction security ](https://www.nbg.gr/en/footer/everything-you-need-for-the-security-of-your-transactions)
+      * [ Push notifications ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/push-notifications)
+      * [ Digital Banking credentials ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/register-for-digital-banking)
+      * [ Personal details' update via Digital Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/i-bank-profile-update)
+      * [ Transactions approval at Digital Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/transactions-approval)
+      * [ Cards & account settings online management ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/secure-your-card-account-online)
+      * [ Additional Transaction Authenticator (3FA) ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/additional-transaction-authenticator-3fa)
+      * [ Other ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+      * [ Add a co-beneficiary online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/add-a-cobeneficiary-online)
+      * [ Digital services ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/services)
+      * [ Sign and send documents online ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/sign-and-send-documents-online)
+    * [Other services ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services)
+[Other services ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services)
+      * [ Safe deposit ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services/safe-deposit-boxes)
+      * [ Cheques and payments in euro ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services/check-money-transfer-orders-in-euro)
+      * [ Send money abroad (euros) ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services/foreign-remittances-in-euro)
+      * [ SEPA Instant payments ](https://www.nbg.gr/en/lp/sepa-instant-payments)
+      * [ I want to see all transaction services ](https://www.nbg.gr/en/individuals/daily-transactions/transaction-services)
+    * [Useful tools](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools)
+[Useful tools](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools)
+      * [ Eligibility tool ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/mortgage-eligibility-tool)
+      * [ Mortgage calculator ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/mortgage-calculator)
+      * [ IBAN calculator ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/iban-calculator)
+      * [ Go For More points calculator ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/go4more-points-calculator)
+      * [ I want to see all online banking tools ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools)
+  * [Borrowing](https://www.nbg.gr/en/individuals/loans)
+[Borrowing](https://www.nbg.gr/en/individuals/loans)
+    * [Mortgage ](https://www.nbg.gr/en/individuals/loans/mortgages)
+[Mortgage ](https://www.nbg.gr/en/individuals/loans/mortgages)
+      * [Find the mortgage that best suits your needs](https://www.nbg.gr/en/individuals/loans/find-your-mortgage-loan)
+      * [ Ηousing program ‘Spiti mou ΙΙ’ ](https://www.nbg.gr/en/individuals/loans/mortgages/my-home-ii-state-housing-program)
+      * [ “Upgrade my home” program ](https://www.nbg.gr/en/individuals/loans/mortgages/repair-renovation-loans/upgrade-my-home)
+      * [ For purchase ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans)
+      * [ my First Home ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans/my-first-home-primary-residence-loan)
+      * [ Estia Fixed ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans/estia-fixed)
+      * [ Estia Green ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans/estia-green)
+      * [ Estia Privilege ](https://www.nbg.gr/en/individuals/loans/mortgages/property-loans/estia-privilege)
+      * [ Eligibility tool ](https://www.nbg.gr/en/individuals/daily-transactions/online-banking-tools/mortgage-eligibility-tool)
+      * [ For renovation - Repairs ](https://www.nbg.gr/en/individuals/loans/mortgages/repair-renovation-loans)
+      * [ “Upgrade my home” program ](https://www.nbg.gr/en/individuals/loans/mortgages/repair-renovation-loans/upgrade-my-home)
+      * [ Estia Renovation ](https://www.nbg.gr/en/individuals/loans/mortgages/repair-renovation-loans/estia-renovation)
+      * [ Reward program for performing borrowers ](https://www.nbg.gr/en/individuals/loans/mortgages/reward-program-for-performing-borrowers)
+      * [ I want to see all mortgages ](https://www.nbg.gr/en/individuals/loans/mortgages)
+    * [For personal use](https://www.nbg.gr/en/individuals/loans/personal-loans)
+[For personal use](https://www.nbg.gr/en/individuals/loans/personal-loans)
+      * [Find the personal loan that best suits your needs](https://www.nbg.gr/en/individuals/loans/find-your-personal-loan)
+      * [ EXPRESS personal loan ](https://www.nbg.gr/en/individuals/loans/personal-loans/express)
+      * [ Consumer loan EXPRESS Plus ](https://www.nbg.gr/en/individuals/loans/personal-loans/consumer-loan-express-plus)
+      * [ Reward ](https://www.nbg.gr/en/individuals/loans/personal-loans/reward)
+      * [ Personal loan with mortgage prenotation ](https://www.nbg.gr/en/individuals/loans/personal-loans/with-mortgage-prenotation)
+      * [ Overdraft ](https://www.nbg.gr/en/individuals/loans/personal-loans/overdraft)
+      * [ Personal loan backed by liquid assets ](https://www.nbg.gr/en/individuals/loans/personal-loans/backed-by-liquid-assets)
+      * [ I want to see all personal loans ](https://www.nbg.gr/en/individuals/loans/personal-loans)
+    * [Debt consolidation](https://www.nbg.gr/en/individuals/loans/dept-settlement)
+[Debt consolidation](https://www.nbg.gr/en/individuals/loans/dept-settlement)
+      * [Find the debt consolidation solution that suits you best ](https://www.nbg.gr/en/individuals/loans/find-dept-settlement-solutions)
+      * [ Weight off your shoulders NBG debts ](https://www.nbg.gr/en/individuals/loans/dept-settlement/weight-off-your-shoulders-for-nbg-debtors)
+      * [ Retail Banking & Products of Small & Medium-sized Enterprises (SMEs) Overdue Demands ](https://www.nbg.gr/en/individuals/loans/dept-settlement/overdue-debts)
+      * [ I want to see all debt settlement solutions ](https://www.nbg.gr/en/individuals/loans/dept-settlement)
+    * [Studies ](https://www.nbg.gr/en/individuals/loans/student-loans)
+[Studies ](https://www.nbg.gr/en/individuals/loans/student-loans)
+      * [Find the student loan that best suits your needs](https://www.nbg.gr/en/individuals/loans/find-your-student-loan)
+      * [ Student loan ](https://www.nbg.gr/en/individuals/loans/student-loans/student-life)
+      * [ Student Loan Program ](https://www.nbg.gr/en/individuals/loans/student-loan)
+      * [ I want to see all student loans ](https://www.nbg.gr/en/individuals/loans/student-loans)
+    * [Eco solutions](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans)
+[Eco solutions](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans)
+      * [Find green solutions that best suit your needs](https://www.nbg.gr/en/individuals/loans/find-your-eco-loan)
+      * [ Green Loan ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/green-loan)
+      * [ “Exoikonomo 2025” program ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/exoikonomo-2025)
+      * [ Green Loan guaranteed by EIF ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/green-loan-guaranteed-by-eif)
+      * [ Exoikonomo-Anakainizo gia neous ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/save-renovate-youth-loan)
+      * [ Exoikonomo 2023 ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/exoikonomo-2023-personal-loan)
+      * [ Exoikonomo – Autonomo Expression of Interest Form ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans/exoikonomo-2025/exoikonomw-form)
+      * [ I want to see all eco loans ](https://www.nbg.gr/en/individuals/loans/energy-efficiency-loans)
+    * [Property](https://www.nbg.gr/en/individuals/loans/find-your-mortgage)
+[Property](https://www.nbg.gr/en/individuals/loans/find-your-mortgage)
+      * [Find property solutions that best suit your needs](https://www.nbg.gr/en/individuals/loans/find-real-estate-loans)
+      * [ Property loan for other uses ](https://www.nbg.gr/en/individuals/loans/find-your-mortgage/mortgage-loan-for-other-uses)
+      * [ I want to see all mortgages ](https://www.nbg.gr/en/individuals/loans/find-your-mortgage)
+  * [Saving and investing](https://www.nbg.gr/en/individuals/savings-investments)
+[Saving and investing](https://www.nbg.gr/en/individuals/savings-investments)
+    * [Savings solutions](https://www.nbg.gr/en/individuals/savings-investments/saving-programs)
+[Savings solutions](https://www.nbg.gr/en/individuals/savings-investments/saving-programs)
+      * [Find the savings solution that best suits your needs](https://www.nbg.gr/en/individuals/savings-investments/saving-solutions)
+      * [ For my child ](https://www.nbg.gr/en/individuals/savings-investments/saving-programs/for-children)
+      * [ NBG Children ](https://www.nbg.gr/en/individuals/savings-investments/saving-programs/for-children/nbg-children)
+      * [ I want to see all saving programs ](https://www.nbg.gr/en/individuals/savings-investments/saving-programs)
+    * [Investment solutions](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions)
+[Investment solutions](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions)
+      * [Find investment solutions that best suit your needs](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions)
+      * [ Time deposit accounts ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts)
+      * [ Time deposit accounts in euro ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/time-deposit-accounts-in-euro)
+      * [ Time deposits in foreign currency ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/foreign-currency-time-deposits)
+      * [ 18-month Time Deposit in USD ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/18-month-time-deposit-in-usd)
+      * [ New Time Deposit Programs ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/deposit-programs)
+      * [ Monthly ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/monthly)
+      * [ e-Term Deposits ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/e-term-deposits)
+      * [ e-Term Deposits for 1, 3, 6, 9 & 12 Months ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/time-deposit-accounts/e-term-deposits/1-3-6-12-months)
+      * [ Investments ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments)
+      * [ Mutual Fund: NBG Asset Allocation Fund of Funds ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/mutual-fund-of-funds)
+      * [ DELOS EXTRA INCOME 36month VII - Bond Fund ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions/dhlos-extra-income-36-months-vii-omologiako)
+      * [ New Generation Investment ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/new-generation-investment)
+      * [ Delos Mutual Funds ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/mutual-funds-dilos)
+      * [ SICAV mutual funds NBG AM Luxembourg ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/mutual-funds-ucits)
+      * [ Third party UCITS ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/third-party-mutual-funds)
+      * [ Bonds ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/bonds)
+      * [ Shares ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investments/stocks)
+      * [ Investing in Mutual Funds through periodic payments ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions/ependysi-sta-metra-mou)
+      * [ Investment tailored for me ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions/ependysi-sta-metra-mou)
+      * [ Investment-insurance solutions ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investment-insurance-products)
+      * [ Full [10 Bond Fund] ](https://www.nbg.gr/en/individuals/savings-investments/find-investment-solutions/full-omologiako-10)
+      * [ Full Capital Plan ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investment-insurance-products/full-capital-plan)
+      * [ Full Capital Plan Shield investment program ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investment-insurance-products/full-plan-shield-investment-programm)
+      * [ Full Life Plan ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions/investment-insurance-products/full-life-plan)
+      * [ I want to see all investment solutions ](https://www.nbg.gr/en/individuals/savings-investments/investment-solutions)
+  * [Insuring](https://www.nbg.gr/en/individuals/insurance-programs)
+[Insuring](https://www.nbg.gr/en/individuals/insurance-programs)
+    * [Vehicles](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs)
+[Vehicles](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs)
+      * [Find the vehicle insurance that best suits your needs](https://www.nbg.gr/en/individuals/insurance-programs/find-vehicle-insurance-solutions)
+      * [ Auto Protect (Private car & Motorcycle) insurance plan ](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs/auto-protect)
+      * [ Private-use farm truck insurance program ](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs/private-use-farm-truck-insurance)
+      * [ I want to see all vehicle insurance programs ](https://www.nbg.gr/en/individuals/insurance-programs/vehicle-insurance-programs)
+    * [Health ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs)
+[Health ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs)
+      * [Find the health insurance that best suits your needs](https://www.nbg.gr/en/individuals/insurance-programs/find-health-insurance-solutions)
+      * [ Full Health ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs/full-health)
+      * [ Full Hospital Care ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs/full-hospital-care)
+      * [ Full Health Emergency Care ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs/full-health-emergency-care-insurance-plan)
+      * [ ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+      * [ Full Preventive healthcare ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs/full-prevention)
+      * [ I want to see all health insurance programs ](https://www.nbg.gr/en/individuals/insurance-programs/health-insurance-programs)
+    * [Life](https://www.nbg.gr/en/individuals/insurance-programs/asfalistika-zois)
+[Life](https://www.nbg.gr/en/individuals/insurance-programs/asfalistika-zois)
+      * [ Full Life Insurance ](https://www.nbg.gr/en/individuals/insurance-programs/asfalistika-zois/full-life-insurance-life-insurance-program-for-individuals)
+      * [ Life insurance for mortgage loan borrowers ](https://www.nbg.gr/en/individuals/insurance-programs/mortgage-borrower-life-insurance)
+    * [Home](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance)
+[Home](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance)
+      * [Find the home insurance that best suits your needs](https://www.nbg.gr/en/individuals/insurance-programs/find-home-insurance-solutions)
+      * [ Home insurance ](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance/full-home-protection)
+      * [ Property insurance ](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance/property-insurance)
+      * [ I want to see all home insurance solutions ](https://www.nbg.gr/en/individuals/insurance-programs/home-insurance)
+    * [Cards and personal items](https://www.nbg.gr/en/individuals/insurance-programs/card-personal-belongings-insurance)
+[Cards and personal items](https://www.nbg.gr/en/individuals/insurance-programs/card-personal-belongings-insurance)
+      * [Find the card & personal items insurance that best suits your needs](https://www.nbg.gr/en/individuals/insurance-programs/card-and-personal-items-insurance)
+      * [ Card and personal items insurance ](https://www.nbg.gr/en/individuals/insurance-programs/card-personal-belongings-insurance/card-insurance)
+      * [ I want to see all card & personal belongings insurance ](https://www.nbg.gr/en/individuals/insurance-programs/card-personal-belongings-insurance)
+    * [Online risks](https://www.nbg.gr/en/individuals/insurance-programs/online-risks)
+[Online risks](https://www.nbg.gr/en/individuals/insurance-programs/online-risks)
+      * [ Full Cyber Protection ](https://www.nbg.gr/en/individuals/insurance-programs/online-risks/full-cyber-protection-insurance-plan)
+  * [Planning tomorrow](https://www.nbg.gr/en/individuals/life-moments)
+[Planning tomorrow](https://www.nbg.gr/en/individuals/life-moments)
+    * [ Health and Safety ](https://www.nbg.gr/en/individuals/life-moments/health-safety)
+    * [ Travels ](https://www.nbg.gr/en/individuals/life-moments/entertainment)
+    * [ Life and Family ](https://www.nbg.gr/en/individuals/life-moments/family)
+    * [ My finances ](https://www.nbg.gr/en/individuals/life-moments/my-finances)
+    * [ My home ](https://www.nbg.gr/en/individuals/life-moments/my-home)
+    * [ Overcoming difficulties ](https://www.nbg.gr/en/individuals/life-moments/financial-difficulties)
+    * [ Studies and Career ](https://www.nbg.gr/en/individuals/life-moments/studies-career)
+    * [ Energy and Environment ](https://www.nbg.gr/en/individuals/life-moments/energy-environment)
+  * [I need more information](https://www.nbg.gr/en/individuals/questions)
+
+
+[Ελληνικά](https://www.nbg.gr/en/individuals)
+![Jumbo image background](https://www.nbg.gr/-/jssmedia/Images/idiwtes/kathimerines-sunallages/trapezikes-kartes/newpg21trapezikeskartes10647643982560x600DebitNew.jpg?h=600&iar=0&w=2560&hash=476DC6C2BB3FD8058C7748BB4E804608)
+# Cards
+Make all your payments easily and securely.
+  * [Individuals](https://www.nbg.gr/en/individuals)
+  * [Daily Transactions](https://www.nbg.gr/en/individuals/daily-transactions)
+  * Cards 
+
+
+## Use your card everywhere
+It is the best way to manage your purchases intelligently, control your finances, save time with contactless transactions, and of course, feel secure with smart alerts.
+## What type of card do you want?
+![Credit card](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+### Credit card
+Choose the one that best suits your needs, so you get rewards and many more privileges with each of your purchases.
+[ Tell me more ](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards)
+![Dual Card](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+### Dual Card
+Choose the card that will upgrade your transactions.  
+
+[ Tell me more ](https://www.nbg.gr/en/individuals/daily-transactions/cards/dual-card)
+![Debit card](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+### Debit card
+Choose the one that suits you best and earn rewards with every purchase, as well as security in all your transactions.
+[ Tell me more ](https://www.nbg.gr/en/individuals/daily-transactions/cards/debit-cards)
+![Prepaid card](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+### Prepaid card
+Choose the one that suits you best and get complete control over all your purchases and security in every transaction you make.
+[ Tell me more ](https://www.nbg.gr/en/individuals/daily-transactions/cards/prepaid-cards)
+#### Compare our cards
+Annual subscription
+Purchase rate
+Withdrawal rate
+Go For More reward
+Travel insurance
+Mastercard Concierge service
+Fx fees exempt
+![ ](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+Silver credit card 
+12
+19,29%
+20,29%
+YES
+YES
+NO
+NO
+[Tell me more](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/silver)
+![ ](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+Gold credit card 
+60
+18,79%
+19,79%
+YES
+YES
+YES
+NO
+[Tell me more](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/gold)
+![Black credit card](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+Black credit card 
+120
+15,79%
+19,79%
+YES
+YES
+YES
+YES
+[Tell me more](https://www.nbg.gr/en/individuals/daily-transactions/cards/credit-cards/black)
+## Even more options for your ATM transactions! 
+![For your convenience, the NBG Network ATMs that have a touch screen also allow contactless transactions with your NBG cards.](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+For your convenience, the NBG Network ATMs that have a touch screen also allow contactless transactions with your NBG cards.
+In addition, you can carry out your payments easily and securely by scanning the payment details via barcode/QR-code.
+[Find out more](https://www.nbg.gr/en/footer/nbg-atm-network)  
+  
+[Find an ATM ](https://www.nbg.gr/en/individuals/stores-atms)
+[Read more](https://www.nbg.gr/en/individuals/daily-transactions/cards)[Read Less](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+## Achieve greater flexibility in your purchases with the Installments Option service!
+![Installments Option service](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+You can now easily transfer a transaction made with your debit card into up to 12 installments on your credit card, directly through Internet Banking.
+[Learn more](https://www.nbg.gr/en/individuals/daily-transactions/cards/installment-selection-program)
+[Read more](https://www.nbg.gr/en/individuals/daily-transactions/cards)[Read Less](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+## Receipt of card’s PIN 
+## Card activation
+![Next by NBG ](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+### Next, the new app for stress-free banking, designed exclusively for young people
+Next makes it easy to manage your money, with tips, draws, offers, gifts and smart tools to achieve your financial goals... whatever they are! In finance, you are no longer alone. Next. Money management made chill.
+[Learn more about Next](https://www.nbg.gr/en/next-by-nbg-money-management)[Learn more about Next](https://www.nbg.gr/en/next-by-nbg-money-management)
+![Go For More](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+### Go For More: earn points, earn euros!
+Transactions with your credit card, payment of your bills, insurance of your vehicle, consistent repayment of your loan installments, purchases at the partner businesses with your debit or prepaid card, and much more. These are all ways in which you earn points and redeem them in more than 7,500 partner businesses throughout Greece. This way you pay less or not at all!
+[Tell me more](https://www.nbg.gr/en/go4more)[Tell me more](https://www.nbg.gr/en/go4more)
+## Why get an NBG card?
+### Smart payments
+Select the credit card that suits you best and get a low interest rate, grace period, interest-free installments, and ready cash.
+### Security when you shop
+With NBG cards, you have many advantages regarding security, such as alerts every time a purchase is made and card insurance.
+### Rewards for you
+When you make your purchases using your card, you earn **Go For More** points, which you can redeem at our partner businesses.
+## More digital capabilities for you
+### Download the NBG Mobile Banking app
+The NBG Mobile app gives you a host of benefits, from bill payments and shopping to transactions and managing your housing loan. Download the app to your iPhone or Android and simplify your transactions.
+[![App Store](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://apps.apple.com/gr/app/nbg-mobile-banking/id342152889)[![Google Play](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://play.google.com/store/apps/details?id=mbanking.NBG)[![Huawei AppGallery](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://appgallery.huawei.com/#/app/C101490179)
+[![App Store](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://apps.apple.com/gr/app/nbg-mobile-banking/id342152889)[![Google Play](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://play.google.com/store/apps/details?id=mbanking.NBG)[![Huawei AppGallery](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://appgallery.huawei.com/#/app/C101490179)
+![Download the NBG Mobile Banking app](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+### How can I issue a credit card?
+In just 3 steps, you can apply for your new credit card for quick, easy, and secure purchases. Take the first step and complete the online application now.
+[ I want to apply ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/acquire-a-credit-card-online)
+### You may also like
+Find even more information that can help you meet your needs 
+[![How to make your home more eco-friendly](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/energy-environment/eco-house-how-to-do-it)
+[ Energy and Environment ](https://www.nbg.gr/en/individuals/life-moments/energy-environment)
+3'
+### [How to make your home more eco-friendly Simple ideas to make your home more environmental-friendly](https://www.nbg.gr/en/individuals/life-moments/energy-environment/eco-house-how-to-do-it)
+[![Save energy and reduce several costs](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/energy-environment/ways-to-reduce-energy-consumption-and-save-money)
+[ Energy and Environment ](https://www.nbg.gr/en/individuals/life-moments/energy-environment)
+3'
+### [Save energy and reduce your costs  Read easy ways to have a 'green' and less expensive daily life](https://www.nbg.gr/en/individuals/life-moments/energy-environment/ways-to-reduce-energy-consumption-and-save-money)
+[![Save every day. Easily!](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/my-finances/easy-daily-ways-to-save-money)
+[My finances](https://www.nbg.gr/en/individuals/life-moments/my-finances)
+3'
+### [Easy ways to save money daily Small changes in everyday life for big results in your finances](https://www.nbg.gr/en/individuals/life-moments/my-finances/easy-daily-ways-to-save-money)
+[![Debt Management](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/financial-difficulties/dept-management)
+[Financial difficulties](https://www.nbg.gr/en/individuals/life-moments/financial-difficulties)
+3'
+### [Debt Management Read simple ways to relieve financial stress](https://www.nbg.gr/en/individuals/life-moments/financial-difficulties/dept-management)
+[![Smart home: What it is and how to do it?](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/my-home/smart-home-what-is-it-and-how-to-do-it)
+[My home](https://www.nbg.gr/en/individuals/life-moments/my-home)
+3'
+### [Smart home: What it is and how to do it? The features of a smart home and their significance](https://www.nbg.gr/en/individuals/life-moments/my-home/smart-home-what-is-it-and-how-to-do-it)
+[![Kids and Money; A lesson of great value](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/family/child-and-money-a-valuable-lesson)
+[Life and Family](https://www.nbg.gr/en/individuals/life-moments/family)
+3'
+### [Kids and money: A valuable lesson How to lay the right foundation for your child's relationship with money](https://www.nbg.gr/en/individuals/life-moments/family/child-and-money-a-valuable-lesson)
+[![Smart management of finances](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/my-finances/mobile-banking-why-put-it-in-your-daily-routine)
+[My finances](https://www.nbg.gr/en/individuals/life-moments/my-finances)
+3'
+### [Mobile Banking - Why put it in your Daily Routine? Discover the possibilities of having an entire bank in your pocket](https://www.nbg.gr/en/individuals/life-moments/my-finances/mobile-banking-why-put-it-in-your-daily-routine)
+[![Invite your friends home!](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/family/friends-and-guests-at-home)
+[Life and Family](https://www.nbg.gr/en/individuals/life-moments/family)
+3'
+### [Invite your friends at home! Read ideas about fun activities at home](https://www.nbg.gr/en/individuals/life-moments/family/friends-and-guests-at-home)
+[![Is your home secure?](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png) ](https://www.nbg.gr/en/individuals/life-moments/health-safety/is-your-home-safe)
+[Health & safety ](https://www.nbg.gr/en/individuals/life-moments/health-safety)
+3'
+### [Is your home secure? Discover significant but also very simple actions for a safe house](https://www.nbg.gr/en/individuals/life-moments/health-safety/is-your-home-safe)
+### Our customer service team is here for you
+#### We're always ready to help
+Our highly trained team is waiting to answer any questions you may have, in person or by phone. 
+[I want information](https://www.nbg.gr/en/footer/contact-us)
+[ I want help ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+[I want information](https://www.nbg.gr/en/footer/contact-us)
+[ I want help ](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+![](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+[Close Button](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+Connect to Digital Banking
+[Individual](https://ebanking.nbg.gr/web)[Business](https://business.ebanking.nbg.gr)
+[Get the bank in your desktop](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-banking)[Get the bank in an application](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/mobile-banking)[Get Digital Banking codes](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-mobile-banking-capabilities/register-for-digital-banking)[Get started with NBG online](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/customer-onboarding)
+Close
+Close
+## Did you find all the information you were looking for?
+Your feedback is valuable to us.
+Yes, I didNot really
+## We're by your side
+[How can we help?](https://www.nbg.gr/en/individuals/questions)[Contact us - 210 48 48 484 ](tel:+30%20210%2048%2048%20484)[Branch locator](https://www.nbg.gr/en/individuals/stores-atms)
+### Customer service
+  * [ Get more info ](https://www.nbg.gr/en/footer/contact-us)
+  * [ Book an appointment ](https://www.nbg.gr/en/footer/online-booking-appointment-nbg)
+  * [ The new Digital Age in transactions is here! ](https://www.nbg.gr/en/footer/the-new-digital-age-in-transactions-is-here)
+  * [ Talk to a Corporate Transaction Banking Officer ](https://www.nbg.gr/en/corporate/specialized-corporate-transaction-banking-consultant)
+  * [ Talk to a Business Liaison ](https://www.nbg.gr/en/corporate/corporate-customer-relations-manager)
+  * [ I want to make a complaint ](https://www.nbg.gr/en/footer/compliance-in-the-bank-and-the-group-companies/implementation-of-the-regulatory-framework/complaints-form)
+  * [ Find service points ](https://www.nbg.gr/en/individuals/stores-atms)
+  * [ Talk to a Business Banking RM ](https://www.nbg.gr/en/business/business-advisor)
+  * [ I want to apply for sponsorship ](https://microsites.nbg.gr/donationapply)
+  * [ APS ](https://www.nbg.gr/en/footer/aps)
+  * [ ATM Network ](https://www.nbg.gr/en/footer/nbg-atm-network)
+
+
+### Rates & currency exchange
+  * [ NBG Rates / Rates and charges ](https://www.nbg.gr/en/footer/charges-for-banking-transactions)
+  * [ Currency Exchange Report ](https://www.nbg.gr/en/footer/exchange-rate-bulletin)
+  * [ Fee Information Documents ](https://www.nbg.gr/en/footer/fee-information-document)
+  * [ Payment account transfer ](https://www.nbg.gr/en/footer/payment-account-transfer)
+  * [ Structured products ](https://www.nbg.gr/en/footer/structured-products)
+  * [ Newsletter ](https://www.nbg.gr/en/footer/enimerwtika-deltia)
+  * [ PSD 2 ](https://www.nbg.gr/-/jssmedia/Files/Footer/symvasi-plaisio-ypiresies-plirwmwn-EN)
+  * [ Consumer information according to the PSD2 Service Directive ](https://www.nbg.gr/-/jssmedia/Files/Footer/PSD-2-Leaflet-EN)
+  * [ Code of Ethics ](https://www.nbg.gr/en/footer/code-of-conduct)
+  * [ Inactive accounts information ](https://www.nbg.gr/-/jssmedia/Files/Footer/inactive_deposits_en)
+  * [ Depositor Information Sheet ](https://www.nbg.gr/-/jssmedia/Files/Footer/enhmerwtiko-deltio-gia-katathetes_EN)
+  * [ Investor Information Sheet ](https://www.nbg.gr/-/jssmedia/Files/Footer/Enhmerotiko-deltio-gia-ependytes/Enhmerotiko-Deltio-gia-ependytes-pelates-EN)
+
+
+### Useful links
+  * [ Frequent questions ](https://www.nbg.gr/en/individuals/questions/faq)
+  * [ Compliance ](https://www.nbg.gr/en/footer/compliance-in-the-bank-and-the-group-companies)
+  * [ General terms & conditions for the provision of indirect clearing services ](https://www.nbg.gr/-/jssmedia/Files/Footer/Kanonistikh/Terms-and-Conditions-Indirect-Clearing-Services.pdf?rev=1)
+  * [ FAQs about Digital Banking ](https://www.nbg.gr/en/individuals/questions/faq/internet-mobile-banking)
+  * [ Business Βanking ](https://www.nbg.gr/en/business)
+  * [ Corporate & Investment Banking ](https://www.nbg.gr/en/corporate)
+  * [ Legalization Documents ](https://www.nbg.gr/en/business/banking-products-services/digital-banking/internet-mobile-banking-capabilities/online-legalization-renewal)
+  * [ Power of Attorney Templates for Individuals ](https://www.nbg.gr/en/footer/power-of-attorney-templates-for-individuals)
+  * [ Financial Institutions ](https://www.nbg.gr/en/footer/financial-institutions)
+  * [ Terms of use for e-Signature ](https://www.nbg.gr/-/jssmedia/Files/Footer/TERMS-OF-USE-FOR-e-SIGNATURE)
+  * [ Investigations on Movable Assets & Debts ](https://www.nbg.gr/en/footer/compliance-in-the-bank-and-the-group-companies/combating-financial-crime/investigations-on-movable-assets-and-debts)
+  * [ Social Media terms of Use ](https://www.nbg.gr/en/footer/oroi-xrhshs-social-media)
+  * [ Disclosure of Protection Segregation Levels of CSDR Regulation ](https://www.nbg.gr/-/jssmedia/Files/Footer/DISCLOSURE-OF-PROTECTION-SEGREGATION-LEVELS-of-CSDR-Regulation.pdf)
+  * [ SFDR Regulation ](https://www.nbg.gr/en/group/esg/sustainable-finance-disclosure-regulation-sfdr)
+  * [ Everything you need before your appointment ](https://www.nbg.gr/en/individuals/questions/everything-you-need-before-your-appointment)
+  * [ Responsible AI Principles ](https://www.nbg.gr/en/footer/arxes-ypeuthinis-xrhshs-texnhths-nohmosunhs)
+
+
+### Digital Banking
+  * [ Internet Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-banking)
+  * [ Mobile Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/mobile-banking)
+  * [ Next by NBG ](https://www.nbg.gr/en/next-by-nbg-money-management)
+  * [ Customer onboarding ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/customer-onboarding)
+  * [ Digital Banking for businesses ](https://www.nbg.gr/en/business/banking-products-services/digital-banking)
+  * [ Get Internet Banking codes for your business ](https://www.nbg.gr/en/business/banking-products-services/digital-banking/customer-onboarding)
+
+
+[![App Store](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://apps.apple.com/gr/app/nbg-mobile-banking/id342152889)[![Google Play](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://play.google.com/store/apps/details?id=mbanking.NBG)[![Huawei AppGallery](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://appgallery.huawei.com/#/app/C101490179)
+Customer service
+  * [ Get more info ](https://www.nbg.gr/en/footer/contact-us)
+  * [ Book an appointment ](https://www.nbg.gr/en/footer/online-booking-appointment-nbg)
+  * [ The new Digital Age in transactions is here! ](https://www.nbg.gr/en/footer/the-new-digital-age-in-transactions-is-here)
+  * [ Talk to a Corporate Transaction Banking Officer ](https://www.nbg.gr/en/corporate/specialized-corporate-transaction-banking-consultant)
+  * [ Talk to a Business Liaison ](https://www.nbg.gr/en/corporate/corporate-customer-relations-manager)
+  * [ I want to make a complaint ](https://www.nbg.gr/en/footer/compliance-in-the-bank-and-the-group-companies/implementation-of-the-regulatory-framework/complaints-form)
+  * [ Find service points ](https://www.nbg.gr/en/individuals/stores-atms)
+  * [ Talk to a Business Banking RM ](https://www.nbg.gr/en/business/business-advisor)
+  * [ I want to apply for sponsorship ](https://microsites.nbg.gr/donationapply)
+  * [ APS ](https://www.nbg.gr/en/footer/aps)
+  * [ ATM Network ](https://www.nbg.gr/en/footer/nbg-atm-network)
+
+
+Rates & currency exchange
+  * [ NBG Rates / Rates and charges ](https://www.nbg.gr/en/footer/charges-for-banking-transactions)
+  * [ Currency Exchange Report ](https://www.nbg.gr/en/footer/exchange-rate-bulletin)
+  * [ Fee Information Documents ](https://www.nbg.gr/en/footer/fee-information-document)
+  * [ Payment account transfer ](https://www.nbg.gr/en/footer/payment-account-transfer)
+  * [ Structured products ](https://www.nbg.gr/en/footer/structured-products)
+  * [ Newsletter ](https://www.nbg.gr/en/footer/enimerwtika-deltia)
+  * [ PSD 2 ](https://www.nbg.gr/-/jssmedia/Files/Footer/symvasi-plaisio-ypiresies-plirwmwn-EN)
+  * [ Consumer information according to the PSD2 Service Directive ](https://www.nbg.gr/-/jssmedia/Files/Footer/PSD-2-Leaflet-EN)
+  * [ Code of Ethics ](https://www.nbg.gr/en/footer/code-of-conduct)
+  * [ Inactive accounts information ](https://www.nbg.gr/-/jssmedia/Files/Footer/inactive_deposits_en)
+  * [ Depositor Information Sheet ](https://www.nbg.gr/-/jssmedia/Files/Footer/enhmerwtiko-deltio-gia-katathetes_EN)
+  * [ Investor Information Sheet ](https://www.nbg.gr/-/jssmedia/Files/Footer/Enhmerotiko-deltio-gia-ependytes/Enhmerotiko-Deltio-gia-ependytes-pelates-EN)
+
+
+Useful links
+  * [ Frequent questions ](https://www.nbg.gr/en/individuals/questions/faq)
+  * [ Compliance ](https://www.nbg.gr/en/footer/compliance-in-the-bank-and-the-group-companies)
+  * [ General terms & conditions for the provision of indirect clearing services ](https://www.nbg.gr/-/jssmedia/Files/Footer/Kanonistikh/Terms-and-Conditions-Indirect-Clearing-Services.pdf?rev=1)
+  * [ FAQs about Digital Banking ](https://www.nbg.gr/en/individuals/questions/faq/internet-mobile-banking)
+  * [ Business Βanking ](https://www.nbg.gr/en/business)
+  * [ Corporate & Investment Banking ](https://www.nbg.gr/en/corporate)
+  * [ Legalization Documents ](https://www.nbg.gr/en/business/banking-products-services/digital-banking/internet-mobile-banking-capabilities/online-legalization-renewal)
+  * [ Power of Attorney Templates for Individuals ](https://www.nbg.gr/en/footer/power-of-attorney-templates-for-individuals)
+  * [ Financial Institutions ](https://www.nbg.gr/en/footer/financial-institutions)
+  * [ Terms of use for e-Signature ](https://www.nbg.gr/-/jssmedia/Files/Footer/TERMS-OF-USE-FOR-e-SIGNATURE)
+  * [ Investigations on Movable Assets & Debts ](https://www.nbg.gr/en/footer/compliance-in-the-bank-and-the-group-companies/combating-financial-crime/investigations-on-movable-assets-and-debts)
+  * [ Social Media terms of Use ](https://www.nbg.gr/en/footer/oroi-xrhshs-social-media)
+  * [ Disclosure of Protection Segregation Levels of CSDR Regulation ](https://www.nbg.gr/-/jssmedia/Files/Footer/DISCLOSURE-OF-PROTECTION-SEGREGATION-LEVELS-of-CSDR-Regulation.pdf)
+  * [ SFDR Regulation ](https://www.nbg.gr/en/group/esg/sustainable-finance-disclosure-regulation-sfdr)
+  * [ Everything you need before your appointment ](https://www.nbg.gr/en/individuals/questions/everything-you-need-before-your-appointment)
+  * [ Responsible AI Principles ](https://www.nbg.gr/en/footer/arxes-ypeuthinis-xrhshs-texnhths-nohmosunhs)
+
+
+Digital Banking
+  * [ Internet Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/internet-banking)
+  * [ Mobile Banking ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/mobile-banking)
+  * [ Next by NBG ](https://www.nbg.gr/en/next-by-nbg-money-management)
+  * [ Customer onboarding ](https://www.nbg.gr/en/individuals/daily-transactions/digital-banking/customer-onboarding)
+  * [ Digital Banking for businesses ](https://www.nbg.gr/en/business/banking-products-services/digital-banking)
+  * [ Get Internet Banking codes for your business ](https://www.nbg.gr/en/business/banking-products-services/digital-banking/customer-onboarding)
+
+
+[![App Store](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://apps.apple.com/gr/app/nbg-mobile-banking/id342152889)[![Google Play](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://play.google.com/store/apps/details?id=mbanking.NBG)[![Huawei AppGallery](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)](https://appgallery.huawei.com/#/app/C101490179)
+[](https://www.facebook.com/nationalbankofgreece/)[](https://www.tiktok.com/@nationalbankofgreece)[](https://www.instagram.com/nationalbankofgreece/)[](https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.youtube.com%2F%40NationalBankofGreeceChannel%3Fsub_confirmation%3D1&data=05%7C01%7CKostopoulou.Nektaria%40nbg.gr%7C40911658b3104d45734e08db70968480%7C2ea23c3d03fe4d7bb181ece5512d85c6%7C0%7C0%7C638227564009165502%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=oSNtS5kaaSdOiUTILMSJA35grtqpMTT8iNNqqXOKwHM%3D&reserved=0)[](https://www.linkedin.com/company/national-bank-of-greece)
+[ Terms of Use ](https://www.nbg.gr/-/jssmedia/Files/Footer/Terms_of_Use_en)[ Personal Data ](https://www.nbg.gr/en/footer/statement-regarding-the-protection-of-personal-data)[ Use of cookies ](https://www.nbg.gr/en/footer/cookie-policy)[ Sitemap ](https://www.nbg.gr/en/footer/sitemap)
+© 2026 National Bank of Greece G.C.R. (G.E.MI.) 237901000
+[back-to-top](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+![Logo](https://www.nbg.gr/dist/nbgportal/browser/assets/images/default-image.png)
+Πώς μπορώ να βοηθήσω;
+![Chat](https://www.nbg.gr/en/individuals/daily-transactions/cards)
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. 
+Cookies Settings Reject All Accept All Cookies
+![Company Logo](https://cdn.cookielaw.org/logos/958aa988-f50f-4a57-b54a-f40d09acc9e3/0107a1b6-31af-4a0d-af14-7d0caac4536a/16f1b659-7c8a-4daf-85b7-b2a2480f17c0/Logo-NBG-Rebranded-GR-crop.jpg)
+## Privacy Preference Center
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer.   
+[More information](https://www.nbg.gr/en/footer/cookie-policy)
+Allow All
+###  Manage Consent Preferences
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details‎
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details‎
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details‎
+#### Performance Cookies
+Performance Cookies
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+Cookies Details‎
+Back Button
+### Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label label
+Apply Cancel
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Reject All Confirm My Choices
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-consent/)
